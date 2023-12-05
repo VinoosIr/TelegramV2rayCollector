@@ -115,7 +115,7 @@
                 "RU🇷🇺",
                 "NL🇳🇱",
                 "JP🇯🇵",
-                "TR🇹🇷"
+                "BR🇧🇷"
             ]
         },
         {
@@ -125,11 +125,10 @@
                 "رایگان | SS | @vmess_vless_v2rayng | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | JP🇯🇵 | 0️⃣3️⃣",
-                "رایگان | SS | @FAKEOFTVC | TR🇹🇷 | 0️⃣1️⃣"
+                "رایگان | SS | @forwardv2ray | BR🇧🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -150,8 +149,7 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -188,10 +186,10 @@
             "tolerance": 50
         },
         {
-            "tag": "TR🇹🇷",
+            "tag": "BR🇧🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @FAKEOFTVC | TR🇹🇷 | 0️⃣1️⃣"
+                "رایگان | SS | @forwardv2ray | BR🇧🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -228,16 +226,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "la.telegavpn.org",
-            "server_port": 33966,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ploBxyOcf3Gz6K1gZBiFjT",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1987.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -268,12 +256,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @FAKEOFTVC | TR🇹🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | BR🇧🇷 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "94.131.108.237",
-            "server_port": 46041,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cDewnplB4DhF7VjzDIdMFf",
+            "server": "186.233.118.171",
+            "server_port": 5600,
+            "method": "aes-256-gcm",
+            "password": "Ug4bvxJ+IcDdH7Kmufe\/M6A2AhzOHZ7JPsXuLQ0h7Es=",
             "plugin": "",
             "plugin_opts": ""
         },
