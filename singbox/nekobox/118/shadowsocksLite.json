@@ -113,6 +113,8 @@
                 "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @vmess_vless_v2rayng | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @VmessProtocol | HK🇭🇰 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣1️⃣",
@@ -127,6 +129,8 @@
                 "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @vmess_vless_v2rayng | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @VmessProtocol | HK🇭🇰 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣1️⃣",
@@ -160,10 +164,30 @@
         {
             "tag": "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
             "type": "shadowsocks",
+            "server": "185.221.153.52",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k0qB3WfkUyA7xIXnGh5tRMUX1w9qJmKwpkIbWgOiAtiCydAC",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
+            "type": "shadowsocks",
             "server": "217.29.63.152",
             "server_port": 51348,
             "method": "chacha20-ietf-poly1305",
             "password": "H9D7dwn88dVtsFV1ksduvRHfuNb1zueWwnNwa0pmyTNQjpGX",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VmessProtocol | HK🇭🇰 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "50.114.157.63",
+            "server_port": 10020,
+            "method": "chacha20-ietf-poly1305",
+            "password": "259d0fe4-37b8-4df0-90a1-b7f7cfbec4f7",
             "plugin": "",
             "plugin_opts": ""
         },
