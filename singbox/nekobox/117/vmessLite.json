@@ -121,7 +121,7 @@
                 "رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @FreakConfig | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VMESS | @forwardv2ray | PL🇵🇱 | 0️⃣1️⃣",
+                "رایگان | VMESS | @forwardv2ray | EE🇪🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @nofiltering2 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @mahvarehnewssat | DE🇩🇪 | 0️⃣1️⃣",
@@ -151,7 +151,7 @@
                 "رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FreakConfig | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @FreakConfig | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VMESS | @forwardv2ray | PL🇵🇱 | 0️⃣1️⃣",
+                "رایگان | VMESS | @forwardv2ray | EE🇪🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @nofiltering2 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @mahvarehnewssat | DE🇩🇪 | 0️⃣1️⃣",
@@ -593,11 +593,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @forwardv2ray | PL🇵🇱 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @forwardv2ray | EE🇪🇪 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "147.135.208.178",
-            "server_port": 38612,
-            "uuid": "db53bc29-0f62-4cd3-832b-85499c9278a8",
+            "server": "ee1-vmess.sshmax.xyz",
+            "server_port": 2082,
+            "uuid": "e342ac69-9671-4b47-bd62-64002ac97d8b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -607,6 +607,15 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "ee1-vmess.sshmax.xyz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
