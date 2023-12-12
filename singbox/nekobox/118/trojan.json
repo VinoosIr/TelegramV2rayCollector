@@ -111,11 +111,13 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "CA🇨🇦",
+                "IE🇮🇪",
                 "GB🇬🇧",
-                "FR🇫🇷",
+                "DE🇩🇪",
+                "SE🇸🇪",
                 "IS🇮🇸",
-                "JP🇯🇵",
-                "DE🇩🇪"
+                "FR🇫🇷",
+                "JP🇯🇵"
             ]
         },
         {
@@ -123,14 +125,17 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @proxyymeliii | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @yaney_01 | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @DirectVPN | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @FAKEOFTVC | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @DirectVPN | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | IS🇮🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | IS🇮🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | JP🇯🇵 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @FAKEOFTVC | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @proxyymeliii | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @yaney_01 | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @VmessProtocol | JP🇯🇵 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -147,22 +152,42 @@
             "tolerance": 50
         },
         {
-            "tag": "GB🇬🇧",
+            "tag": "IE🇮🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "FR🇫🇷",
+            "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @proxyymeliii | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @yaney_01 | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "DE🇩🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @DirectVPN | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @FAKEOFTVC | DE🇩🇪 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "SE🇸🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @DirectVPN | SE🇸🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -180,20 +205,21 @@
             "tolerance": 50
         },
         {
-            "tag": "JP🇯🇵",
+            "tag": "FR🇫🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @VmessProtocol | JP🇯🇵 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @proxyymeliii | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @yaney_01 | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "DE🇩🇪",
+            "tag": "JP🇯🇵",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @FAKEOFTVC | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @VmessProtocol | JP🇯🇵 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -228,7 +254,49 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "52.16.224.133",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "3.248.16.96",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣",
             "type": "trojan",
             "server": "18.169.229.236",
             "server_port": 22222,
@@ -249,11 +317,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @DirectVPN | DE🇩🇪 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "15.188.180.126",
+            "server": "18.153.245.13",
             "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -270,11 +338,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @proxyymeliii | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @FAKEOFTVC | DE🇩🇪 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "141.94.221.127",
-            "server_port": 80,
-            "password": "9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae",
+            "server": "5.104.108.120",
+            "server_port": 443,
+            "password": "b8810c0b-f0a8-4bc3-baff-7e7ffb85a08c",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -282,7 +350,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ftp.debian.org",
+                "server_name": "20-24-33-134.nhost.00cdn.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -291,15 +359,24 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @yaney_01 | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @DirectVPN | SE🇸🇪 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "141.94.221.127",
-            "server_port": 80,
-            "password": "65c3941e-46b9-42f6-9c89-daedf472b6db",
+            "server": "51.20.169.5",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -345,6 +422,39 @@
             }
         },
         {
+            "tag": "رایگان | TROJAN | @proxyymeliii | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "141.94.221.127",
+            "server_port": 80,
+            "password": "9ebdbb4a-8ae6-45e8-9169-33fe68fdbaae",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @yaney_01 | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "141.94.221.127",
+            "server_port": 80,
+            "password": "65c3941e-46b9-42f6-9c89-daedf472b6db",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | TROJAN | @VmessProtocol | JP🇯🇵 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "jp1.lxjc.app",
@@ -358,27 +468,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "16-163-218-240.nhost.00cdn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @FAKEOFTVC | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "5.104.108.120",
-            "server_port": 443,
-            "password": "b8810c0b-f0a8-4bc3-baff-7e7ffb85a08c",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "20-24-33-134.nhost.00cdn.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
