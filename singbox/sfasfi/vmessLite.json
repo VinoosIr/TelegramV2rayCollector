@@ -112,11 +112,11 @@
                 "رایگان | VMESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2ray_outlineir | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @mftizi | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @prrofile_purple | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣",
@@ -131,7 +131,8 @@
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | CN🇨🇳 | 0️⃣2️⃣",
-                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VMESS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | VMESS | @eliya_chiter0 | DE🇩🇪 | 0️⃣1️⃣"
@@ -145,11 +146,11 @@
                 "رایگان | VMESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2ray_outlineir | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @mftizi | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @prrofile_purple | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | FR🇫🇷 | 0️⃣1️⃣",
@@ -164,7 +165,8 @@
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | CN🇨🇳 | 0️⃣2️⃣",
-                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VMESS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | VMESS | @eliya_chiter0 | DE🇩🇪 | 0️⃣1️⃣"
@@ -266,32 +268,6 @@
             "tag": "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "AlphaVPN",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "free.1alphaomega.org"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "free2.1alphaomega.org",
             "server_port": 8880,
             "uuid": "AlphaVPN",
             "security": "auto",
@@ -443,6 +419,32 @@
                 "path": "\/",
                 "headers": {
                     "Host": "varda2.manwe.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "free2.1alphaomega.org",
+            "server_port": 8880,
+            "uuid": "AlphaVPN",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "free.1alphaomega.org"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -873,11 +875,28 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "crownv2.ddns.net",
+            "server": "51.75.162.199",
+            "server_port": 61570,
+            "uuid": "e6aab1e0-ede0-47c3-b01c-f34a498db838",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
+            "type": "vmess",
+            "server": "gafn.online",
             "server_port": 443,
-            "uuid": "DFE19309-3763-4CBF-A429-3AAE23D431E6",
+            "uuid": "C1944C01-12F4-4935-9128-AE13BD701CCF",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -890,7 +909,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Kansas.bobbykotick.rip",
+                "server_name": "LosAngeles.gafn.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -902,7 +921,7 @@
                 "type": "ws",
                 "path": "\/speedtest",
                 "headers": {
-                    "Host": "Kansas.bobbykotick.rip"
+                    "Host": "LosAngeles.gafn.online"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
