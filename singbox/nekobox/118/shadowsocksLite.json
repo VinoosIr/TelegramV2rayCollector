@@ -110,7 +110,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @forwardv2ray | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣2️⃣",
@@ -121,7 +122,8 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @forwardv2ray | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣2️⃣",
@@ -132,7 +134,17 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "3.91.181.129",
+            "server_port": 20015,
+            "method": "chacha20-ietf-poly1305",
+            "password": "6cerJipnW7jxuKKSYWVNR4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "185.140.209.74",
             "server_port": 24224,
