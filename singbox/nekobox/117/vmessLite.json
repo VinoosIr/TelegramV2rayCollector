@@ -652,9 +652,9 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "104.17.164.68",
-            "server_port": 8880,
-            "uuid": "4b5e4565-322f-4223-a891-78a84f189726",
+            "server": "104.19.208.207",
+            "server_port": 443,
+            "uuid": "64480f4c-61c2-4d88-89c3-fc0045229bfc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -665,11 +665,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.19.208.207",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/GdtYWlsLmNvbSJ9LCJjb3V",
+                "path": "\/kplxvws",
                 "headers": {
-                    "Host": "104.17.164.68"
+                    "Host": "104.19.208.207"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -678,9 +688,9 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "104.17.14.48",
+            "server": "104.19.180.169",
             "server_port": 443,
-            "uuid": "8f28bbbd-7dc3-4427-a8a7-595796d9ff7d",
+            "uuid": "824c58b1-65ba-4680-a609-663a000dbb92",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -693,7 +703,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.17.14.48",
+                "server_name": "104.19.180.169",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -703,9 +713,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/wss13889",
                 "headers": {
-                    "Host": "104.17.14.48"
+                    "Host": "104.19.180.169"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -714,9 +724,9 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣3️⃣",
             "type": "vmess",
-            "server": "104.17.137.141",
+            "server": "104.18.71.193",
             "server_port": 443,
-            "uuid": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -729,7 +739,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.17.137.141",
+                "server_name": "104.18.71.193",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -739,9 +749,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/d84ee332-1284-11ee-a5c8-8213fd3be4b9",
+                "path": "\/wss51068",
                 "headers": {
-                    "Host": "104.17.137.141"
+                    "Host": "104.18.71.193"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
