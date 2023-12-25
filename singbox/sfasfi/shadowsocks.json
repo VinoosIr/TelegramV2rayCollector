@@ -108,9 +108,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "LT🇱🇹",
                 "US🇺🇸",
                 "TR🇹🇷",
                 "GB🇬🇧",
+                "TW🇹🇼",
                 "CH🇨🇭"
             ]
         },
@@ -118,12 +120,23 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | TR🇹🇷 | 0️⃣3️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | LT🇱🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | TR🇹🇷 | 0️⃣4️⃣",
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @VmessProtocol | CH🇨🇭 | 0️⃣1️⃣"
+                "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣3️⃣",
+                "رایگان | SS | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | CH🇨🇭 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "LT🇱🇹",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @V2rayCollectorDonate | LT🇱🇹 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -133,7 +146,7 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -143,7 +156,7 @@
             "tag": "TR🇹🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @V2rayCollectorDonate | TR🇹🇷 | 0️⃣3️⃣"
+                "رایگان | SS | @V2rayCollectorDonate | TR🇹🇷 | 0️⃣4️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -154,8 +167,17 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "TW🇹🇼",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -165,14 +187,24 @@
             "tag": "CH🇨🇭",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | CH🇨🇭 | 0️⃣1️⃣"
+                "رایگان | SS | @VmessProtocol | CH🇨🇭 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @V2rayCollectorDonate | LT🇱🇹 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "tvc.sabz.top",
+            "server_port": 15171,
+            "method": "aes-128-gcm",
+            "password": "rct9lNBCpv79OOcJmjIZ0mHxGSWnn0DXmMPgtBeQqztu",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "193.160.32.40",
             "server_port": 6666,
@@ -182,7 +214,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | TR🇹🇷 | 0️⃣3️⃣",
+            "tag": "رایگان | SS | @V2rayCollectorDonate | TR🇹🇷 | 0️⃣4️⃣",
             "type": "shadowsocks",
             "server": "tr.sabz.top",
             "server_port": 6568,
@@ -194,16 +226,6 @@
         {
             "tag": "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
-            "type": "shadowsocks",
             "server": "52.142.161.9",
             "server_port": 34424,
             "method": "chacha20-ietf-poly1305",
@@ -212,7 +234,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "52.142.146.57",
             "server_port": 50395,
@@ -222,7 +244,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @VmessProtocol | CH🇨🇭 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @VmessProtocol | TW🇹🇼 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "ty11.twty.dynu.net",
+            "server_port": 2203,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7b039abd-ad30-4ce4-a876-0a97a3ccaf74",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VmessProtocol | CH🇨🇭 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "94.131.12.58",
             "server_port": 26669,
