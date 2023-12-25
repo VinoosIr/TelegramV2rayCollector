@@ -110,7 +110,6 @@
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @EliV2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2_team | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @reality_daily | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @melov2ray | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @lightning6 | CN🇨🇳 | 0️⃣2️⃣",
                 "رایگان | REALITY | @DigiV2ray | DE🇩🇪 | 0️⃣1️⃣",
@@ -224,7 +223,6 @@
                 "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣7️⃣",
                 "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣8️⃣",
                 "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣9️⃣",
-                "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 7️⃣0️⃣",
                 "رایگان | REALITY | @testreality | Donated | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @neda_aghasoltan | Donated | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣",
@@ -244,7 +242,6 @@
             "outbounds": [
                 "رایگان | REALITY | @EliV2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2_team | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @reality_daily | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @melov2ray | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @lightning6 | CN🇨🇳 | 0️⃣2️⃣",
                 "رایگان | REALITY | @DigiV2ray | DE🇩🇪 | 0️⃣1️⃣",
@@ -358,7 +355,6 @@
                 "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣7️⃣",
                 "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣8️⃣",
                 "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣9️⃣",
-                "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 7️⃣0️⃣",
                 "رایگان | REALITY | @testreality | Donated | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @neda_aghasoltan | Donated | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣",
@@ -443,34 +439,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @reality_daily | US🇺🇸 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "104.168.107.230",
-            "server_port": 22,
-            "uuid": "e17a298c-acb7-4ab6-bcbb-6406262a2b83",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0RTguS1P4QlzILIZZt902J0Jy62IdAOvM3ZCGPHjtzQ",
-                    "short_id": "9302bd8065524274"
-                }
             }
         },
         {
@@ -1989,34 +1957,6 @@
             "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 0️⃣6️⃣",
             "type": "vless",
             "server": "77.91.84.45",
-            "server_port": 2082,
-            "uuid": "570b9a77-cc31-405d-8d99-cce1e926d0e4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yoast.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qQxM_HRDDbzgJZ1h6OqTeUEurhwN9QcquCRdopD-yBQ",
-                    "short_id": "418d13f0ddec007e"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 0️⃣7️⃣",
-            "type": "vless",
-            "server": "77.91.84.45",
             "server_port": 2085,
             "uuid": "2789a5d8-f876-4062-b824-790299bf877f",
             "flow": "xtls-rprx-vision",
@@ -2042,7 +1982,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 0️⃣8️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 0️⃣7️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 2086,
@@ -2070,7 +2010,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 0️⃣9️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 0️⃣8️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 2087,
@@ -2098,7 +2038,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣0️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 0️⃣9️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 2095,
@@ -2126,7 +2066,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣1️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣0️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 2096,
@@ -2154,7 +2094,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣2️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣1️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 2983,
@@ -2182,7 +2122,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣3️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣2️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 3462,
@@ -2210,7 +2150,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣4️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣3️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 3492,
@@ -2238,7 +2178,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣5️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣4️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 4212,
@@ -2266,7 +2206,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣6️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣5️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 4342,
@@ -2294,7 +2234,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣7️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣6️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 4607,
@@ -2322,7 +2262,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣8️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣7️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 4876,
@@ -2350,7 +2290,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣9️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣8️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 5144,
@@ -2378,7 +2318,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣0️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 1️⃣9️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 5474,
@@ -2406,7 +2346,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣1️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣0️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 5676,
@@ -2434,7 +2374,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣2️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣1️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 5738,
@@ -2462,7 +2402,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣3️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣2️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6067,
@@ -2490,7 +2430,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣4️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣3️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6272,
@@ -2518,7 +2458,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣5️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣4️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6280,
@@ -2546,7 +2486,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣6️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣5️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6286,
@@ -2574,7 +2514,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣7️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣6️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6443,
@@ -2602,7 +2542,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣8️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣7️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6481,
@@ -2630,7 +2570,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣9️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣8️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6722,
@@ -2658,7 +2598,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣0️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 2️⃣9️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6794,
@@ -2686,7 +2626,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣1️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣0️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 6855,
@@ -2714,7 +2654,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣2️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣1️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 7321,
@@ -2742,7 +2682,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣3️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣2️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 7550,
@@ -2770,7 +2710,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣4️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣3️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 7640,
@@ -2798,7 +2738,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣5️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣4️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 7667,
@@ -2826,7 +2766,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣6️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣5️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 7970,
@@ -2854,7 +2794,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣7️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣6️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 8174,
@@ -2882,7 +2822,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣8️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣7️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 8224,
@@ -2910,7 +2850,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣9️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣8️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 8339,
@@ -2938,7 +2878,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣0️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 3️⃣9️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 8443,
@@ -2966,7 +2906,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣1️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣0️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 8667,
@@ -2994,7 +2934,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣2️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣1️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 8885,
@@ -3022,7 +2962,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣3️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣2️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 9333,
@@ -3050,7 +2990,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣4️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣3️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 9631,
@@ -3078,7 +3018,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣5️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣4️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 9632,
@@ -3106,7 +3046,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣6️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣5️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 9795,
@@ -3134,7 +3074,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣7️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣6️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 9942,
@@ -3162,7 +3102,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣8️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣7️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 9996,
@@ -3190,7 +3130,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣9️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣8️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 10036,
@@ -3218,7 +3158,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣0️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 4️⃣9️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 10050,
@@ -3246,7 +3186,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣1️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣0️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 10066,
@@ -3274,7 +3214,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣2️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣1️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 10076,
@@ -3302,7 +3242,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣3️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣2️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 10237,
@@ -3330,7 +3270,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣4️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣3️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 10272,
@@ -3358,7 +3298,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣5️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣4️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 10816,
@@ -3386,7 +3326,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣6️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣5️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 11025,
@@ -3414,7 +3354,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣7️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣6️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 12801,
@@ -3442,7 +3382,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣8️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣7️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 13127,
@@ -3470,7 +3410,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣9️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣8️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 14766,
@@ -3498,7 +3438,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣0️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 5️⃣9️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 14767,
@@ -3526,7 +3466,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣1️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣0️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 14768,
@@ -3554,7 +3494,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣2️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣1️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 14769,
@@ -3582,7 +3522,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣3️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣2️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 15591,
@@ -3610,7 +3550,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣4️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣3️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 16785,
@@ -3638,7 +3578,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣5️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣4️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 16904,
@@ -3666,7 +3606,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣6️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣5️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 17591,
@@ -3694,7 +3634,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣7️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣6️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 17633,
@@ -3722,7 +3662,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣8️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣7️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 17684,
@@ -3750,7 +3690,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣9️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣8️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 18023,
@@ -3778,7 +3718,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 7️⃣0️⃣",
+            "tag": "رایگان | REALITY | @reality_daily(free) | Donated | SE🇸🇪 | 6️⃣9️⃣",
             "type": "vless",
             "server": "77.91.84.45",
             "server_port": 18439,
