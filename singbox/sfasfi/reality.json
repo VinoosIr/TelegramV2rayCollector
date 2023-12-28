@@ -114,6 +114,7 @@
                 "CA🇨🇦",
                 "CN🇨🇳",
                 "FI🇫🇮",
+                "IR🇮🇷",
                 "NO🇳🇴",
                 "NL🇳🇱",
                 "PT🇵🇹",
@@ -130,6 +131,7 @@
             "outbounds": [
                 "رایگان | REALITY | @v2_team | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @v2ray_swhil | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣2️⃣",
@@ -238,7 +240,7 @@
                 "رایگان | REALITY | @lightning6 | CN🇨🇳 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣6️⃣",
                 "رایگان | REALITY | @Capital_NET | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | REALITY | @Capoit | FI🇫🇮 | 0️⃣1️⃣",
+                "رایگان | REALITY | @prrofile_purple | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Good_V2rayy | NO🇳🇴 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣4️⃣",
@@ -265,6 +267,7 @@
             "outbounds": [
                 "رایگان | REALITY | @v2_team | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @v2ray_swhil | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣2️⃣",
@@ -417,8 +420,17 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣6️⃣",
-                "رایگان | REALITY | @Capital_NET | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | REALITY | @Capoit | FI🇫🇮 | 0️⃣1️⃣"
+                "رایگان | REALITY | @Capital_NET | FI🇫🇮 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "IR🇮🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @prrofile_purple | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -576,6 +588,41 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "80.240.19.212",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fahab0SYbtQWyJ8rfaIxsRODWu0IiN-EsJR5QS5MYlA",
+                    "short_id": "e35bc248"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -3690,11 +3737,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @Capoit | FI🇫🇮 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @prrofile_purple | IR🇮🇷 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "65.21.240.250",
-            "server_port": 443,
-            "uuid": "a0562dec-26ac-43d4-ba1d-785c334e644f",
+            "server": "b.inode.click",
+            "server_port": 2039,
+            "uuid": "beecf0ee-e961-4de9-8806-3b40a92323d1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3704,24 +3751,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dnschecker.org",
+                "server_name": "cdn-fastly.deb.debian.org",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mVJz9PJm59WzeNEn5c1HnzL4XjAfaNA3T99AW_LEAhc",
-                    "short_id": "fada4f5f"
+                    "public_key": "I33_7zDiAOYeZTw7ouGmLZNry5HxKgLgL-isK5zwZWU",
+                    "short_id": "d39c2328"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
