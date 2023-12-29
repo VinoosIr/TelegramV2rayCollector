@@ -110,6 +110,7 @@
                 "FR🇫🇷",
                 "IS🇮🇸",
                 "DE🇩🇪",
+                "KR🇰🇷",
                 "JP🇯🇵"
             ]
         },
@@ -128,8 +129,8 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | IS🇮🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | IS🇮🇸 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @yaney_01 | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | KR🇰🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @yaney_01 | JP🇯🇵 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -187,8 +188,17 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @yaney_01 | DE🇩🇪 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "KR🇰🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @ConfigsHUB | KR🇰🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -434,27 +444,6 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @VmessProtocol | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "78.47.217.216",
-            "server_port": 993,
-            "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.casperco.online",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "رایگان | TROJAN | @yaney_01 | DE🇩🇪 | 0️⃣3️⃣",
             "type": "trojan",
             "server": "5.104.107.143",
@@ -464,6 +453,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @ConfigsHUB | KR🇰🇷 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "131.186.25.198",
+            "server_port": 20802,
+            "password": "f3801cdd-2473-472a-8da4-77b1a17661c0",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "206.237.5.220",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
