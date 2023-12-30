@@ -112,7 +112,8 @@
                 "AT🇦🇹",
                 "GB🇬🇧",
                 "CH🇨🇭",
-                "US🇺🇸"
+                "US🇺🇸",
+                "SE🇸🇪"
             ]
         },
         {
@@ -123,9 +124,9 @@
                 "رایگان | SS | @VmessProtocol | AT🇦🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣3️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | CH🇨🇭 | 0️⃣1️⃣",
-                "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -156,8 +157,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣3️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣"
+                "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -178,6 +178,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "SE🇸🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -224,16 +234,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "رایگان | SS | @FAKEOFTVC | CH🇨🇭 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "94.131.12.245",
@@ -250,6 +250,16 @@
             "server_port": 47413,
             "method": "chacha20-ietf-poly1305",
             "password": "U1EYRQpU8rLGRKvDMfR6Fv",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "45.8.147.80",
+            "server_port": 5741,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Q5CEiebSuSl2qFkfE4ztG2",
             "plugin": "",
             "plugin_opts": ""
         },
