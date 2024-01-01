@@ -110,6 +110,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "رایگان | SS | @forwardv2ray | KR🇰🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣"
             ]
         },
@@ -117,11 +120,44 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
+                "رایگان | SS | @forwardv2ray | KR🇰🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | KR🇰🇷 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "kr.colacloud.site",
+            "server_port": 20352,
+            "method": "chacha20-ietf-poly1305",
+            "password": "eef2358d-ccd0-474b-b6ff-58f56a24bfda",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "38.75.136.49",
+            "server_port": 7306,
+            "method": "aes-256-gcm",
+            "password": "FoOiGlkAA9yPEGP",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "45.8.147.80",
+            "server_port": 5741,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Q5CEiebSuSl2qFkfE4ztG2",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣",
