@@ -125,7 +125,6 @@
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | KZ🇰🇿 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FAKEOFTVC | US🇺🇸 | 0️⃣1️⃣",
@@ -156,7 +155,6 @@
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | KZ🇰🇿 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FAKEOFTVC | US🇺🇸 | 0️⃣1️⃣",
@@ -623,9 +621,9 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "a5.bcbot.in",
-            "server_port": 8880,
-            "uuid": "dc98db61-0ee2-4b55-855f-f62414f997d1",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -638,47 +636,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?",
                 "headers": {
-                    "Host": "a5.bcbot.in"
+                    "Host": "kanal-tel.freev2alpha.cfd"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | KZ🇰🇿 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "kz-v2ray.ipracevpn.com",
-            "server_port": 8443,
-            "uuid": "48b10b02-2c60-4323-bc65-a11b15144745",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kz-v2ray.ipracevpn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "v2line.telegram.channel.1385.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server": "v2line.telegram.channel.1383.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 443,
-            "uuid": "fcc2ad21-1f6e-4ba3-8275-70d2e5915490",
+            "uuid": "bd32bdcc-1655-463d-bd85-392b61deadc2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -691,7 +662,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "v2line.telegram.channel.1385.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+                "server_name": "v2line.telegram.channel.1383.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -703,7 +674,7 @@
                 "type": "ws",
                 "path": "\/racevpn",
                 "headers": {
-                    "Host": "v2line.telegram.channel.1385.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"
+                    "Host": "v2line.telegram.channel.1383.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
