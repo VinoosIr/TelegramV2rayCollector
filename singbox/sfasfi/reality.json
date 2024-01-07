@@ -113,6 +113,7 @@
                 "US🇺🇸",
                 "PT🇵🇹",
                 "TR🇹🇷",
+                "RU🇷🇺",
                 "NO🇳🇴",
                 "LV🇱🇻",
                 "FR🇫🇷"
@@ -122,7 +123,8 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
+                "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣2️⃣",
@@ -132,6 +134,7 @@
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣7️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣2️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣3️⃣",
+                "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Capoit | FI🇫🇮 | 0️⃣2️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣5️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣9️⃣",
@@ -188,12 +191,11 @@
                 "رایگان | REALITY | @Nika_Shakarami | Donated | US🇺🇸 | 5️⃣0️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | PT🇵🇹 | 0️⃣8️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣1️⃣",
-                "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣4️⃣",
-                "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣6️⃣",
-                "رایگان | REALITY | @V2Hub | Donated | LV🇱🇻 | 1️⃣5️⃣",
-                "رایگان | REALITY | @neda_aghasoltan | Donated | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣2️⃣"
+                "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 1️⃣4️⃣",
+                "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣5️⃣",
+                "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣7️⃣",
+                "رایگان | REALITY | @V2Hub | Donated | LV🇱🇻 | 1️⃣6️⃣",
+                "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -203,7 +205,8 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
+                "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣2️⃣",
@@ -212,7 +215,8 @@
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣6️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣7️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣2️⃣",
-                "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣3️⃣"
+                "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣3️⃣",
+                "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -311,11 +315,21 @@
             "tolerance": 50
         },
         {
+            "tag": "RU🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 1️⃣4️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "NO🇳🇴",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣4️⃣",
-                "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣6️⃣"
+                "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣5️⃣",
+                "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣7️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -325,7 +339,7 @@
             "tag": "LV🇱🇻",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2Hub | Donated | LV🇱🇻 | 1️⃣5️⃣"
+                "رایگان | REALITY | @V2Hub | Donated | LV🇱🇻 | 1️⃣6️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -335,16 +349,14 @@
             "tag": "FR🇫🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @neda_aghasoltan | Donated | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣2️⃣"
+                "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
             "type": "vless",
             "server": "free01.miraclev2ray.online",
             "server_port": 443,
@@ -369,6 +381,41 @@
                     "public_key": "8fQWsJr0l6n5x98oArx-3a1IO3elnrrHOHZorOyFSHw",
                     "short_id": "4189a3adbea837f0"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "75-Join.V2RayTz.sbs",
+            "server_port": 443,
+            "uuid": "5ca228a7-0989-41be-9128-544ae8e5167b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedq.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "M1nq-8a6Y4id6KBQjx9z3JOkfUEJi3ZBw7reC_hFP3s",
+                    "short_id": "963c6427"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -663,6 +710,34 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "5.230.67.241",
+            "server_port": 443,
+            "uuid": "a6eb27f1-5124-42c3-86a9-49dfe79e7512",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UWcn5zNzJRH-DxuZ4coJ3xmKPh1VKU2jFUeHNAqDDBU",
+                    "short_id": "841840cfd3f2bb62"
+                }
             }
         },
         {
@@ -2255,7 +2330,42 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣4️⃣",
+            "tag": "رایگان | REALITY | @V2Hub | Donated | RU🇷🇺 | 1️⃣4️⃣",
+            "type": "vless",
+            "server": "45.156.24.151",
+            "server_port": 443,
+            "uuid": "eff2bd9b-d1a3-4564-997a-d08d8e3ac32a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jTxQOEt_8YXQRC67o0sLlMQK_KOuVCg7tro0M2cUZVQ",
+                    "short_id": "64636272"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣5️⃣",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 8443,
@@ -2290,7 +2400,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣6️⃣",
+            "tag": "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣7️⃣",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
@@ -2318,7 +2428,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2Hub | Donated | LV🇱🇻 | 1️⃣5️⃣",
+            "tag": "رایگان | REALITY | @V2Hub | Donated | LV🇱🇻 | 1️⃣6️⃣",
             "type": "vless",
             "server": "sjoin.outline-vpn.cloud",
             "server_port": 443,
@@ -2346,34 +2456,6 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @neda_aghasoltan | Donated | FR🇫🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "193.187.175.44",
-            "server_port": 22,
-            "uuid": "22e42556-9310-451d-9698-a233938f6799",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1r0ye4C64sAUdeW3zAfyQonIn_rErekQa0bQrnTqo2k",
-                    "short_id": "a3f8ca7ffc6ac9cc"
-                }
-            }
-        },
-        {
             "tag": "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣",
             "type": "vless",
             "server": "5.230.67.241",
@@ -2389,34 +2471,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "ftp.debian.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UWcn5zNzJRH-DxuZ4coJ3xmKPh1VKU2jFUeHNAqDDBU",
-                    "short_id": "841840cfd3f2bb62"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @shahid_ehsan(nazri) | Donated | FR🇫🇷 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "5.230.67.241",
-            "server_port": 443,
-            "uuid": "a6eb27f1-5124-42c3-86a9-49dfe79e7512",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
