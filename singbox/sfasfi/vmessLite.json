@@ -129,12 +129,11 @@
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VMESS | @Hope_Net | TW🇹🇼 | 0️⃣2️⃣",
+                "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @MrV2Ray | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | IN🇮🇳 | 0️⃣1️⃣",
-                "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @FAKEOFTVC | TW🇹🇼 | 0️⃣3️⃣",
+                "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @kingofilter | CA🇨🇦 | 0️⃣3️⃣",
@@ -171,12 +170,11 @@
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VMESS | @Hope_Net | TW🇹🇼 | 0️⃣2️⃣",
+                "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @MrV2Ray | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | IN🇮🇳 | 0️⃣1️⃣",
-                "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @FAKEOFTVC | TW🇹🇼 | 0️⃣3️⃣",
+                "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @kingofilter | CA🇨🇦 | 0️⃣3️⃣",
@@ -781,11 +779,11 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "ca-full.privateip.net",
+            "server": "172.67.164.184",
             "server_port": 443,
-            "uuid": "13d63c8d-086b-4c7c-ac58-edd939437d51",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -796,7 +794,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": null,
+                "server_name": "alvvin.click",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -806,20 +804,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "ca-full.privateip.net"
+                    "Host": "alvvin.click"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | TW🇹🇼 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "hk1.wenpblog.buzz",
-            "server_port": 443,
-            "uuid": "19827243-fae1-42ae-a494-0153dbf07ded",
+            "server": "103.159.206.35",
+            "server_port": 31945,
+            "uuid": "e2e511b0-7def-4e1b-d238-6cb5391b2e3f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -829,33 +827,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk1.wenpblog.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/baseOn",
+                "path": "\/",
                 "headers": {
-                    "Host": "hk1.wenpblog.buzz"
+                    "Host": "103.159.206.35"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣3️⃣",
             "type": "vmess",
-            "server": "80.92.205.112",
-            "server_port": 443,
-            "uuid": "4c90ba75-230b-4f8b-bbff-8efa0eb0415f",
+            "server": "srv1.hamedgeek.sbs",
+            "server_port": 2083,
+            "uuid": "b36e93b8-21b4-4495-ac81-0109f65cb1ad",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -868,7 +856,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "80.92.205.112",
+                "server_name": "kingofilter2.hamedgeek.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -880,7 +868,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "80.92.205.112"
+                    "Host": "kingofilter2.hamedgeek.sbs"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -949,47 +937,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "172.67.164.184",
+            "server": "hk1.wenpblog.buzz",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "alvvin.click",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "alvvin.click"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @FAKEOFTVC | TW🇹🇼 | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "103.159.206.35",
-            "server_port": 31945,
-            "uuid": "e2e511b0-7def-4e1b-d238-6cb5391b2e3f",
+            "uuid": "19827243-fae1-42ae-a494-0153dbf07ded",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1000,11 +952,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk1.wenpblog.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/baseOn",
                 "headers": {
-                    "Host": "103.159.206.35"
+                    "Host": "hk1.wenpblog.buzz"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
