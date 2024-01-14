@@ -108,6 +108,7 @@
                 "US🇺🇸",
                 "AM🇦🇲",
                 "NL🇳🇱",
+                "AZ🇦🇿",
                 "SE🇸🇪",
                 "GB🇬🇧",
                 "AT🇦🇹"
@@ -122,9 +123,10 @@
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @V2rayCollectorDonate | AM🇦🇲 | 0️⃣1️⃣",
                 "رایگان | SS | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | AZ🇦🇿 | 0️⃣3️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣4️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
+                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -164,10 +166,20 @@
             "tolerance": 50
         },
         {
+            "tag": "AZ🇦🇿",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @V2rayCollectorDonate | AZ🇦🇿 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "SE🇸🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣3️⃣"
+                "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣4️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -178,7 +190,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣"
+                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -245,7 +257,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | SS | @V2rayCollectorDonate | AZ🇦🇿 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "180.149.44.120",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣4️⃣",
             "type": "shadowsocks",
             "server": "121.127.46.147",
             "server_port": 989,
@@ -265,7 +287,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.142.142.155",
             "server_port": 5957,
