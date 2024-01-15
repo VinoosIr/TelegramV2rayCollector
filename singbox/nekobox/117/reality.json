@@ -106,7 +106,6 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "DE🇩🇪",
-                "ES🇪🇸",
                 "IR🇮🇷",
                 "SE🇸🇪",
                 "US🇺🇸",
@@ -131,7 +130,6 @@
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣7️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣0️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣1️⃣",
-                "رایگان | REALITY | @DailyV2RY | ES🇪🇸 | 0️⃣1️⃣",
                 "رایگان | REALITY | @Good_V2rayy | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @hadisnajafi | Donated | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @hadisnajafi | Donated | SE🇸🇪 | 0️⃣2️⃣",
@@ -232,16 +230,6 @@
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣7️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣0️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "ES🇪🇸",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @DailyV2RY | ES🇪🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -759,34 +747,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @DailyV2RY | ES🇪🇸 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "142.250.184.237",
-            "server_port": 80,
-            "uuid": "541d4818-6b92-40ec-b692-ff74c450af10",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "accounts.google.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7KU9RAppo9b-I3CQdQhBqXQ8eaKPxgF0A67MA4OY7w4",
-                    "short_id": "b57c9c13"
-                }
             }
         },
         {
