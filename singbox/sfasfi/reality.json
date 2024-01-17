@@ -117,7 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @EliV2ray | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣5️⃣",
+                "رایگان | REALITY | @EliV2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Capoit | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @flyv2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @v2rayNG_Matsuri | SE🇸🇪 | 0️⃣1️⃣",
@@ -133,7 +133,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @EliV2ray | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣5️⃣",
+                "رایگان | REALITY | @EliV2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Capoit | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @flyv2ray | DE🇩🇪 | 0️⃣2️⃣"
             ],
@@ -155,6 +155,41 @@
         },
         {
             "tag": "رایگان | REALITY | @EliV2ray | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "116.203.131.97",
+            "server_port": 443,
+            "uuid": "55e0bcd5-fb8d-4ef7-9519-70f28b51dae0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "all2.vipfast1.xyz",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Soj156XmjzVViQwQ9MyUDANyOcOccHNT40DSDllhdVU",
+                    "short_id": "744c9deb"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @EliV2ray | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
             "server": "91.107.181.102",
             "server_port": 29790,
@@ -183,41 +218,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣5️⃣",
-            "type": "vless",
-            "server": "46.101.210.24",
-            "server_port": 28506,
-            "uuid": "b948b117-2658-4cbf-a7e0-0bb42da39760",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ilovepdf.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "d2nmrwxk6TZt36feMWvWMgguXdT7oY1waIPlby8ytSY",
-                    "short_id": "e1ac4cea"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
