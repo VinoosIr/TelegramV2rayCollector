@@ -111,7 +111,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "DE🇩🇪",
-                "SE🇸🇪"
+                "IR🇮🇷"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "outbounds": [
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 1️⃣6️⃣",
                 "رایگان | REALITY | @FAKEOFTVC | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2RayTz | SE🇸🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @Good_V2rayy | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -138,10 +138,10 @@
             "tolerance": 50
         },
         {
-            "tag": "SE🇸🇪",
+            "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2RayTz | SE🇸🇪 | 0️⃣1️⃣"
+                "رایگان | REALITY | @Good_V2rayy | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -211,12 +211,12 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2RayTz | SE🇸🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @Good_V2rayy | IR🇮🇷 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "551-Join.V2RayTz.sbs",
-            "server_port": 2053,
-            "uuid": "64272a1b-fcab-4eef-a09a-8459dda467b2",
-            "flow": "xtls-rprx-vision",
+            "server": "pr.dadnetiran.xyz",
+            "server_port": 12754,
+            "uuid": "fa1661aa-a1e3-4b74-9a2d-1d4d62050bc5",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -225,16 +225,16 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tun1n.gsmxreality.com",
+                "server_name": "discord.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "_sTFgvAF7aj2yRzeXSx9TDdu-mhyqBr0WMLfI9SxBz0",
-                    "short_id": "0bb95c9e598a7bd4"
+                    "public_key": "7Ig5GBzwQkBPQ-3gEPgBjTt-6N14VNcW6qgsTW2dKxA",
+                    "short_id": "02085b77"
                 }
             }
         },
