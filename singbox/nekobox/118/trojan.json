@@ -114,9 +114,9 @@
                 "IE🇮🇪",
                 "GB🇬🇧",
                 "CA🇨🇦",
-                "DE🇩🇪",
+                "JP🇯🇵",
                 "HK🇭🇰",
-                "JP🇯🇵"
+                "DE🇩🇪"
             ]
         },
         {
@@ -129,9 +129,11 @@
                 "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @kingofilter | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @oneclickvpnkeys | HK🇭🇰 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @forwardv2ray | JP🇯🇵 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -180,10 +182,10 @@
             "tolerance": 50
         },
         {
-            "tag": "DE🇩🇪",
+            "tag": "JP🇯🇵",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -193,17 +195,19 @@
             "tag": "HK🇭🇰",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | HK🇭🇰 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "JP🇯🇵",
+            "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @forwardv2ray | JP🇯🇵 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -350,11 +354,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "35.158.220.113",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "server": "vpnhat.liangyuandiancloud.com",
+            "server_port": 443,
+            "password": "17cae44f-1b58-4407-bb31-8273b7a51ff2",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -362,7 +366,28 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @oneclickvpnkeys | HK🇭🇰 | 0️⃣3️⃣",
+            "type": "trojan",
+            "server": "vpnpool.liangyuandiancloud.com",
+            "server_port": 443,
+            "password": "17cae44f-1b58-4407-bb31-8273b7a51ff2",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -383,11 +408,23 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @forwardv2ray | JP🇯🇵 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "kh.mjt000.com",
+            "server": "my02.trojanyyds.xyz",
             "server_port": 443,
-            "password": "0cdc54e5-c8e1-4350-a7b2-047e5f4c02f9",
+            "password": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "35.158.220.113",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -395,7 +432,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kh.mjt000.com",
+                "server_name": "trojan.miwan.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
