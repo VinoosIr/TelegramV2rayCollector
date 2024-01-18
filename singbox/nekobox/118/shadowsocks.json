@@ -126,13 +126,15 @@
             "outbounds": [
                 "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AU🇦🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣3️⃣",
-                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -144,7 +146,8 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -175,7 +178,8 @@
             "tag": "CA🇨🇦",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣1️⃣"
+                "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -205,7 +209,7 @@
             "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣1️⃣"
+                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -238,6 +242,16 @@
             "server_port": 8091,
             "method": "aes-256-gcm",
             "password": "PCnnH6SQSnfoS27",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "172.233.178.7",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "6BG3gG3lfpl11NE4yfsICx",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -282,6 +296,16 @@
             "plugin_opts": ""
         },
         {
+            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "toronto.telegavpn.org",
+            "server_port": 31024,
+            "method": "chacha20-ietf-poly1305",
+            "password": "95x2gboYV44Yo1txWnA3sY",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "رایگان | SS | @OutlineVpnOfficial | AU🇦🇺 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "au-ss.ipracevpn.com",
@@ -302,12 +326,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣2️⃣",
             "type": "shadowsocks",
-            "server": "singapore.telegavpn.org",
-            "server_port": 16759,
-            "method": "chacha20-ietf-poly1305",
-            "password": "MDArbO5PIDWmS45dFOs3gz",
+            "server": "216.39.248.133",
+            "server_port": 7001,
+            "method": "aes-256-gcm",
+            "password": "RexnBgU7EV5ADxG",
             "plugin": "",
             "plugin_opts": ""
         },
