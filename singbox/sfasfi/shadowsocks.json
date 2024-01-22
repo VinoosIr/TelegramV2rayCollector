@@ -112,7 +112,6 @@
                 "DE🇩🇪",
                 "PL🇵🇱",
                 "GB🇬🇧",
-                "SG🇸🇬",
                 "AT🇦🇹"
             ]
         },
@@ -120,8 +119,6 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | SS | @ROMAX_VPN | DE🇩🇪 | 0️⃣2️⃣",
@@ -131,7 +128,6 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
-                "رایگان | SS | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -142,8 +138,6 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -186,16 +180,6 @@
             "tolerance": 50
         },
         {
-            "tag": "SG🇸🇬",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
             "tag": "AT🇦🇹",
             "type": "urltest",
             "outbounds": [
@@ -204,26 +188,6 @@
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
-        },
-        {
-            "tag": "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "154.7.179.11",
-            "server_port": 7777,
-            "method": "chacha20-ietf-poly1305",
-            "password": "39459633-d825-4778-bf72-175aa1ef3737",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @servermomo | US🇺🇸 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "38.68.134.202",
-            "server_port": 8091,
-            "method": "aes-256-gcm",
-            "password": "PCnnH6SQSnfoS27",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
@@ -259,9 +223,9 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 9102,
+            "server_port": 2375,
             "method": "aes-256-gcm",
-            "password": "e4FCWrgpkji3QY",
+            "password": "faBAoD54k87UJG7",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -269,9 +233,9 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 8009,
+            "server_port": 9102,
             "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
+            "password": "e4FCWrgpkji3QY",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -279,9 +243,9 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 6679,
+            "server_port": 8009,
             "method": "aes-256-gcm",
-            "password": "TEzjfAYq2IjtuoS",
+            "password": "XKFKl2rULjIp74",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -312,16 +276,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @VmessProtocol | SG🇸🇬 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "91.192.81.21",
-            "server_port": 8388,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA",
             "plugin": "",
             "plugin_opts": ""
         },
