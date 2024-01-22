@@ -112,6 +112,8 @@
                 "PL🇵🇱",
                 "GB🇬🇧",
                 "AT🇦🇹",
+                "SE🇸🇪",
+                "RU🇷🇺",
                 "DE🇩🇪"
             ]
         },
@@ -128,6 +130,9 @@
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | SS | @ROMAX_VPN | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -174,6 +179,27 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "SE🇸🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "RU🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -276,6 +302,36 @@
             "server_port": 12949,
             "method": "chacha20-ietf-poly1305",
             "password": "P2zxXPewlV3BlfqqYiSthvtLc",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "ec2-13-50-100-220.eu-north-1.compute.amazonaws.com",
+            "server_port": 80,
+            "method": "xchacha20-ietf-poly1305",
+            "password": "pkOaFIw+aPJISQWvz5tcHa9nUI\/eHRGP\/ZJJ210ESNk=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "ec2-13-53-245-62.eu-north-1.compute.amazonaws.com",
+            "server_port": 80,
+            "method": "xchacha20-ietf-poly1305",
+            "password": "pkOaFIw+aPJISQWvz5tcHa9nUI\/eHRGP\/ZJJ210ESNk=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "vpn-ru.wwp.im",
+            "server_port": 15174,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ZW898co5du5AZqd3TUQ8Wy",
             "plugin": "",
             "plugin_opts": ""
         },
