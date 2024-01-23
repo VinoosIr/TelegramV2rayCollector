@@ -110,7 +110,7 @@
                 "PL🇵🇱",
                 "GB🇬🇧",
                 "AT🇦🇹",
-                "CA🇨🇦"
+                "RU🇷🇺"
             ]
         },
         {
@@ -127,8 +127,7 @@
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣"
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -190,11 +189,10 @@
             "tolerance": 50
         },
         {
-            "tag": "CA🇨🇦",
+            "tag": "RU🇷🇺",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣"
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -301,22 +299,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "toronto.telegavpn.org",
-            "server_port": 31024,
+            "server": "vpn-ru.wwp.im",
+            "server_port": 15174,
             "method": "chacha20-ietf-poly1305",
-            "password": "2KItuw4Ho6jmF32vNQrBA7",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "toronto.telegavpn.org",
-            "server_port": 31024,
-            "method": "chacha20-ietf-poly1305",
-            "password": "SknTii7Ogmhie8gSDsSMmL",
+            "password": "XCRlw7YH76bI6pALs12kIo",
             "plugin": "",
             "plugin_opts": ""
         },
