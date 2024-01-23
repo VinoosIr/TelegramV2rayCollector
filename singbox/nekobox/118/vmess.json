@@ -113,7 +113,7 @@
                 "CA🇨🇦",
                 "NL🇳🇱",
                 "EE🇪🇪",
-                "JP🇯🇵",
+                "IR🇮🇷",
                 "US🇺🇸",
                 "PT🇵🇹"
             ]
@@ -132,6 +132,7 @@
                 "رایگان | VMESS | @proxystore11 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @proxystore11 | CA🇨🇦 | 0️⃣3️⃣",
+                "رایگان | VMESS | @v2Line | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣2️⃣",
@@ -139,7 +140,7 @@
                 "رایگان | VMESS | @ShadowProxy66 | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | EE🇪🇪 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣",
+                "رایگان | VMESS | @proxyymeliii | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FAKEOFTVC | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @eliya_chiter0 | PT🇵🇹 | 0️⃣2️⃣"
             ],
@@ -161,6 +162,7 @@
                 "رایگان | VMESS | @proxystore11 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @proxystore11 | CA🇨🇦 | 0️⃣3️⃣",
+                "رایگان | VMESS | @v2Line | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣2️⃣"
@@ -192,10 +194,10 @@
             "tolerance": 50
         },
         {
-            "tag": "JP🇯🇵",
+            "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣"
+                "رایگان | VMESS | @proxyymeliii | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -552,6 +554,32 @@
             }
         },
         {
+            "tag": "رایگان | VMESS | @v2Line | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 80,
+            "uuid": "f61203bd-f386-4d12-9853-cc829d6b7c9d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "ca2.xv2ray.net"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "nina.bond",
@@ -745,11 +773,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | JP🇯🇵 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @proxyymeliii | IR🇮🇷 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "152.69.197.60",
-            "server_port": 1069,
-            "uuid": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
+            "server": "edge.squadiran.ir",
+            "server_port": 443,
+            "uuid": "payam@5405teq",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -759,6 +787,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "edge.squadiran.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
