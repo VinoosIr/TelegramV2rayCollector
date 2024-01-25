@@ -117,7 +117,8 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | BG🇧🇬 | 0️⃣2️⃣"
             ]
         },
         {
@@ -131,7 +132,8 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | BG🇧🇬 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -208,12 +210,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "vpn-ru.wwp.im",
-            "server_port": 15174,
+            "server": "toronto.telegavpn.org",
+            "server_port": 31024,
             "method": "chacha20-ietf-poly1305",
-            "password": "YykfPhdlylye8V83ZeB5VX",
+            "password": "y9SqwajGmEhYRiUGlzZC3U",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | BG🇧🇬 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "213.183.63.189",
+            "server_port": 16325,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lgTGrmtOtgcDduVPJ1LU5s",
             "plugin": "",
             "plugin_opts": ""
         },
