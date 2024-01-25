@@ -112,8 +112,7 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | TR🇹🇷 | 0️⃣2️⃣"
+                "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣"
             ]
         },
         {
@@ -127,8 +126,7 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | TR🇹🇷 | 0️⃣2️⃣"
+                "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -205,22 +203,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
+            "server": "us1.dart-vpn.com",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | TR🇹🇷 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "194.15.52.34",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Z2QvCXjm5lo5ieFkr\/sSd9SHNlVgduuFbKuAh\/uFjR8=",
+            "method": "2022-blake3-aes-256-gcm",
+            "password": "l4+GmsYuYhWI1gjXPa8wmHpzgeCohs8H+ngT55Fqd\/U=",
             "plugin": "",
             "plugin_opts": ""
         },
