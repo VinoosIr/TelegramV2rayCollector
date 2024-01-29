@@ -127,11 +127,8 @@
                 "رایگان | TROJAN | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣6️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣4️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | SE🇸🇪 | 1️⃣0️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
@@ -152,8 +149,7 @@
             "outbounds": [
                 "رایگان | TROJAN | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣6️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -164,9 +160,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -298,27 +292,6 @@
         {
             "tag": "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "13.36.103.238",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣3️⃣",
-            "type": "trojan",
             "server": "15.188.203.182",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
@@ -374,53 +347,6 @@
                 "path": "\/@x2rayn_vpn",
                 "headers": {
                     "Host": "FILTERCHE-BEGERESH-K-OMAD.COM"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "trojan",
-            "server": "139.162.163.83",
-            "server_port": 8880,
-            "password": "pN2-AfC_TD7aD8ixPprDtw",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@x2rayn_vpn",
-                "headers": {
-                    "Host": "FILTERCHE-BEGERESH-K-OMAD.COM"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "190.93.245.187",
-            "server_port": 2083,
-            "password": "1YcFVMZWx_OiEBEvnEMtrg",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "arv2.aticloud.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "arv2.aticloud.ir"
                 }
             }
         },
