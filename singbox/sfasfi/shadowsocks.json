@@ -125,7 +125,8 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @kingofilter | SE🇸🇪 | 0️⃣1️⃣"
             ],
@@ -153,7 +154,8 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -250,7 +252,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "51.104.230.134",
+            "server_port": 60156,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cWKqgZ2YrNWTOLhDMtJn2R",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
