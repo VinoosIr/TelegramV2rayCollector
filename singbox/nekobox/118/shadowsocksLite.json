@@ -111,15 +111,12 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "رایگان | SS | @azadi_az_inja_migzare | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AU🇦🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣3️⃣",
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣"
             ]
@@ -129,15 +126,12 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @azadi_az_inja_migzare | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AU🇦🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣3️⃣",
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣"
             ],
@@ -152,16 +146,6 @@
             "server_port": 31803,
             "method": "chacha20-ietf-poly1305",
             "password": "llRQSxw3erJhCElYdwks12",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "51.158.204.157",
-            "server_port": 1165,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1NuiNBTUl7mwxFwtpDxL-g",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -222,26 +206,6 @@
             "server_port": 12949,
             "method": "chacha20-ietf-poly1305",
             "password": "P2zxXPewlV3BlfqqYiSthvtLc",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "toronto.telegavpn.org",
-            "server_port": 31024,
-            "method": "chacha20-ietf-poly1305",
-            "password": "UBvHGJPI4JtYzIqqMayuNI",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         },
