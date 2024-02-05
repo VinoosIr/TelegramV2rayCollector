@@ -114,9 +114,10 @@
                 "رایگان | REALITY | @EliV2ray | FI🇫🇮 | 0️⃣3️⃣",
                 "رایگان | REALITY | @NIM_VPN_ir | PL🇵🇱 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2pedia | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | PL🇵🇱 | 0️⃣4️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣5️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣8️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | PL🇵🇱 | 0️⃣6️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣7️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣9️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @IBv2ray | SE🇸🇪 | 0️⃣2️⃣"
             ]
@@ -129,9 +130,10 @@
                 "رایگان | REALITY | @EliV2ray | FI🇫🇮 | 0️⃣3️⃣",
                 "رایگان | REALITY | @NIM_VPN_ir | PL🇵🇱 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2pedia | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | PL🇵🇱 | 0️⃣4️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣5️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣8️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | PL🇵🇱 | 0️⃣6️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣7️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣9️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @IBv2ray | SE🇸🇪 | 0️⃣2️⃣"
             ],
@@ -273,7 +275,42 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | PL🇵🇱 | 0️⃣4️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
+            "type": "vless",
+            "server": "91.149.222.117",
+            "server_port": 443,
+            "uuid": "ccdf2ef6-0cc9-46f3-ba2b-e945eac9ce58",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "H0damgayN3Bw_JnBxebu_l9B8sobpoRS8vL3jHZd8B0",
+                    "short_id": "ddaeb881"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | PL🇵🇱 | 0️⃣6️⃣",
             "type": "vless",
             "server": "ch1.amirali0013.monster",
             "server_port": 34943,
@@ -301,7 +338,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣5️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣7️⃣",
             "type": "vless",
             "server": "uk.pubgji.eu.org",
             "server_port": 26660,
@@ -336,7 +373,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣8️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣9️⃣",
             "type": "vless",
             "server": "m6m.pubgji.eu.org",
             "server_port": 10974,
