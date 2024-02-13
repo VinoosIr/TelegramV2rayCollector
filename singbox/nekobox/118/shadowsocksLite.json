@@ -116,10 +116,11 @@
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | SS | @proxy_mtm | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣1️⃣"
             ]
@@ -134,10 +135,11 @@
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | SS | @proxy_mtm | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣1️⃣"
             ],
@@ -206,12 +208,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "toronto.telegavpn.org",
-            "server_port": 31024,
+            "server": "passconf.xyz",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "CQ8kKEGYjjikRL43cW3tqS",
+            "password": "6BG3gG3lfpl11NE4yfsICx",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "13.60.35.149",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Wqw4mG9GRYGXTNS2Cj8HLy5I92daQFDrC9hCi1HXrs8=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | SE🇸🇪 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "13.60.13.70",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "dLLJY+naTEtirZ7TFDGQX4711o+JOJIgSICF8P+0dCM=",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -232,16 +254,6 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "T1pb7XxxrolvPSb0u2xSOA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "passconf.xyz",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "6BG3gG3lfpl11NE4yfsICx",
             "plugin": "",
             "plugin_opts": ""
         },
