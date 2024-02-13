@@ -115,8 +115,10 @@
                 "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
+                "رایگان | SS | @proxy_mtm | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣1️⃣"
             ]
@@ -130,8 +132,10 @@
                 "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
+                "رایگان | SS | @proxy_mtm | SG🇸🇬 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣1️⃣"
             ],
@@ -190,7 +194,27 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "110.42.99.55",
+            "server_port": 1020,
+            "method": "aes-128-gcm",
+            "password": "r",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @proxy_mtm | SG🇸🇬 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "188.166.229.30",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WsiN47z2ODdOJHxNL7KuJZ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "beacomf.xyz",
             "server_port": 8080,
@@ -200,7 +224,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @proxy_mtm | US🇺🇸 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "passconf.xyz",
             "server_port": 8080,
