@@ -110,6 +110,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "NL🇳🇱",
                 "DE🇩🇪"
             ]
         },
@@ -117,8 +118,18 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @mehrosaboran | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @mehrosaboran | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "NL🇳🇱",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @mehrosaboran | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -128,7 +139,6 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @mehrosaboran | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -136,11 +146,11 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @mehrosaboran | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @mehrosaboran | NL🇳🇱 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "49.13.202.244",
+            "server": "188.166.33.153",
             "server_port": 443,
-            "uuid": "021e1111-e6d9-4f6c-a1b8-03a70b6e4540",
+            "uuid": "0424e3a8-9890-48f0-be8a-56c352b26f9c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,7 +160,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "albasir.in",
+                "server_name": "feedthemplants.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -158,8 +168,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "i0qcM56ezyBF1UMvSAfSEBGA0wGmp6tUH5lnt-dFP10",
-                    "short_id": "23e8beee"
+                    "public_key": "LYWZDBlcQA3b1l7UuzMVcOHtOFGiC3Hfn4EqAYGXGU0",
+                    "short_id": "33723055"
                 }
             },
             "transport": {
