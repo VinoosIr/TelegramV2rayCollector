@@ -108,10 +108,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "DE🇩🇪",
                 "CA🇨🇦",
-                "TW🇹🇼",
-                "US🇺🇸",
+                "NL🇳🇱",
+                "DE🇩🇪",
                 "FR🇫🇷",
                 "GB🇬🇧",
                 "LV🇱🇻",
@@ -122,34 +121,28 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @mftizi | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @mftizi | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @V2rayng_Fast | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @V2rayng_Fast | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @fnet00 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @fnet00 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @kingofilter | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @DeamNet_Proxy | TW🇹🇼 | 0️⃣1️⃣",
-                "رایگان | VMESS | @DeamNet_Proxy | TW🇹🇼 | 0️⃣3️⃣",
-                "رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣2️⃣",
+                "رایگان | VMESS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | VMESS | @v2ray_swhil | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | LV🇱🇻 | 0️⃣1️⃣",
@@ -160,37 +153,26 @@
             "tolerance": 50
         },
         {
-            "tag": "DE🇩🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VMESS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
             "tag": "CA🇨🇦",
             "type": "urltest",
             "outbounds": [
+                "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @mftizi | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @mftizi | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @V2rayng_Fast | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @V2rayng_Fast | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @fnet00 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @fnet00 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @kingofilter | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | CA🇨🇦 | 0️⃣1️⃣"
@@ -200,24 +182,20 @@
             "tolerance": 50
         },
         {
-            "tag": "TW🇹🇼",
+            "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @DeamNet_Proxy | TW🇹🇼 | 0️⃣1️⃣",
-                "رایگان | VMESS | @DeamNet_Proxy | TW🇹🇼 | 0️⃣3️⃣"
+                "رایگان | VMESS | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "US🇺🇸",
+            "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | VMESS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -264,11 +242,11 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | VMESS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "209.38.208.73",
-            "server_port": 2086,
-            "uuid": "1abc186e-fc0f-43e4-9839-4f23cccd77e7",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "0ea1e207-1066-4927-bc7f-00734085c2f2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -279,14 +257,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedanvadd.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "209.38.208.73"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "type": "grpc",
+                "service_name": "api\/38831",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -342,7 +328,7 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "ming2.kiwireich.com",
             "server_port": 443,
@@ -442,42 +428,6 @@
         {
             "tag": "رایگان | VMESS | @V2rayng_Fast | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2087,
-            "uuid": "bfbc634f-561d-40b0-b116-db30169d0623",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr3.nitrohosting.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "fr2.nitrohosting.ir"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @V2rayng_Fast | CA🇨🇦 | 0️⃣2️⃣",
-            "type": "vmess",
             "server": "discord.gg",
             "server_port": 80,
             "uuid": "332dd81f-2f68-47e1-b8b0-b63517297816",
@@ -498,32 +448,6 @@
                     "Host": "fastfoodhamid.whaleproject.tech"
                 },
                 "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "162.159.200.6",
-            "server_port": 80,
-            "uuid": "384648b3-bcc5-401e-b145-dc91f57ee5e6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "er3.889611.com"
-                },
-                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -566,9 +490,9 @@
         {
             "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "104.26.8.202",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "warp-sub.pages.dev",
+            "server_port": 2087,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -581,7 +505,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip2323.cfd",
+                "server_name": "warp-sub.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -591,11 +515,73 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": "warp-sub.pages.dev"
                 },
                 "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "warp-sub.pages.dev",
+            "server_port": 443,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "warp-sub.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
+                "headers": {
+                    "Host": "warp-sub.pages.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | CA🇨🇦 | 0️⃣3️⃣",
+            "type": "vmess",
+            "server": "achk.cloudflarest.link",
+            "server_port": 80,
+            "uuid": "f0f067fe-8e6d-4d95-816b-601038fd5876",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rongseven",
+                "headers": {
+                    "Host": "fr.grpc.gay"
+                },
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -680,9 +666,9 @@
         {
             "tag": "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "dl1.fanqiecloud.top",
-            "server_port": 2095,
-            "uuid": "22e67526-d4c3-42a9-bc76-e7be45d42e49",
+            "server": "free.ctass.top",
+            "server_port": 443,
+            "uuid": "351071bd-ae0d-4be2-ea9c-f2820f43d46e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -693,63 +679,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/sssddd",
-                "headers": {
-                    "Host": "cf-de2.fanqiecloud.top"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "104.18.15.150",
-            "server_port": 80,
-            "uuid": "384648b3-bcc5-401e-b145-dc91f57ee5e6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            "tls": {
+                "enabled": true,
+                "server_name": "free.ctass.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "er3.889611.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "162.159.200.5",
-            "server_port": 80,
-            "uuid": "384648b3-bcc5-401e-b145-dc91f57ee5e6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ca3.889611.com"
+                    "Host": "free.ctass.top"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -792,7 +736,7 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @eliya_chiter0 | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -906,45 +850,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @DeamNet_Proxy | TW🇹🇼 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "nb22.ntbq.dynu.net",
-            "server_port": 12002,
-            "uuid": "35916fe2-8dbe-4a8c-870c-123edabcb414",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @DeamNet_Proxy | TW🇹🇼 | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "nb22.ntbq.dynu.net",
-            "server_port": 12002,
-            "uuid": "bbbf3acb-bfaa-4545-9d2c-dcac332b71ac",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "188.114.96.113",
+            "server": "gcore-chanel.nofiltering2.sbs",
             "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "uuid": "30c052da-c834-44ba-b3ad-ec57b26e271e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -957,20 +867,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/nofiltering2",
                 "headers": {
-                    "Host": "a.prapt4.ir"
+                    "Host": "gcore-chanel.nofiltering2.sbs"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
             "type": "vmess",
-            "server": "mci--join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "209.38.208.73",
+            "server_port": 2086,
+            "uuid": "1abc186e-fc0f-43e4-9839-4f23cccd77e7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -985,52 +895,9 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "a.prapt5.ir"
+                    "Host": "209.38.208.73"
                 },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣2️⃣",
-            "type": "vmess",
-            "server": "135.148.67.129",
-            "server_port": 35063,
-            "uuid": "2f1c9600-706e-4a0d-93da-53bb42a27487",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "188.114.96.11",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "a.prapt5.ir"
-                },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
