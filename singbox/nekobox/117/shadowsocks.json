@@ -110,8 +110,7 @@
                 "FR🇫🇷",
                 "AT🇦🇹",
                 "CN🇨🇳",
-                "BR🇧🇷",
-                "SG🇸🇬",
+                "CA🇨🇦",
                 "GB🇬🇧"
             ]
         },
@@ -120,14 +119,14 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | SS | @VmessProtocol | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @yaney_01 | CN🇨🇳 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | BR🇧🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣2️⃣",
+                "رایگان | SS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -139,6 +138,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣"
             ],
@@ -150,7 +150,7 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣2️⃣"
+                "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -187,20 +187,10 @@
             "tolerance": 50
         },
         {
-            "tag": "BR🇧🇷",
+            "tag": "CA🇨🇦",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @forwardv2ray | BR🇧🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "SG🇸🇬",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣2️⃣"
+                "رایگان | SS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -218,6 +208,16 @@
         },
         {
             "tag": "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "38.121.43.97",
+            "server_port": 7306,
+            "method": "aes-256-gcm",
+            "password": "FoOiGlkAA9yPEGP",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "38.68.134.202",
             "server_port": 5004,
@@ -247,12 +247,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "145.239.1.100",
-            "server_port": 4444,
+            "server_port": 8008,
             "method": "aes-256-gcm",
-            "password": "pKEW8JPByTVTLtM",
+            "password": "XKFKl2rULjIp74",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -287,22 +287,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | BR🇧🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "152.67.53.14",
-            "server_port": 7701,
-            "method": "aes-256-gcm",
-            "password": "00008ce4-7675-4c3a-a9e7-5bd031eb3f31",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "singapore.telegavpn.org",
-            "server_port": 16759,
+            "server": "ca2.dart-vpn.com",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "AJ0ZNS2iVXXDGoJXOxRH8w",
+            "password": "ICTOtROjrAqIotsEYTG8Nc",
             "plugin": "",
             "plugin_opts": ""
         },
