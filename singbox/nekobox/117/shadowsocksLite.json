@@ -111,8 +111,9 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @proxy_mtm | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣"
@@ -128,8 +129,9 @@
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @proxy_mtm | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣"
@@ -199,7 +201,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @proxy_mtm | SE🇸🇪 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "13.50.248.3",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "iw6X30SYVk7Nmnt45QXeqxLMbHswyCgoGpmeZu3boj4=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "109.107.189.5",
             "server_port": 53064,
@@ -209,7 +221,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "109.107.189.185",
             "server_port": 17397,
