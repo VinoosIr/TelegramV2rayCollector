@@ -110,7 +110,6 @@
                 "URL-TEST | رایگان",
                 "CA🇨🇦",
                 "IN🇮🇳",
-                "GB🇬🇧",
                 "DE🇩🇪"
             ]
         },
@@ -119,6 +118,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @mftizi | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣2️⃣",
@@ -134,10 +134,9 @@
                 "رایگان | VMESS | @DailyV2RY | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | VMESS | @v2Line | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | IN🇮🇳 | 0️⃣1️⃣",
-                "رایگان | VMESS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | VMESS | @eliya_chiter0 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @eliya_chiter0 | DE🇩🇪 | 0️⃣2️⃣"
             ],
@@ -150,6 +149,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @mftizi | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @DeamNet_Proxy | CA🇨🇦 | 0️⃣2️⃣",
@@ -165,7 +165,7 @@
                 "رایگان | VMESS | @DailyV2RY | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | VMESS | @v2Line | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @FoXrayIran | CA🇨🇦 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -177,16 +177,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @v2Line | IN🇮🇳 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "GB🇬🇧",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VMESS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -205,6 +195,42 @@
         },
         {
             "tag": "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "104.21.44.64",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "172.67.152.214",
             "server_port": 443,
@@ -740,11 +766,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @v2Line | CA🇨🇦 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
+            "server": "v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 80,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "uuid": "f61203bd-f386-4d12-9853-cc829d6b7c9d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -757,9 +783,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/ibCT6z55",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "agzbjszujp4.yofnhkfc.xyz"
+                    "Host": "ca2.xv2ray.net"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -822,42 +848,6 @@
                 "path": "\/RACEVPN",
                 "headers": {
                     "Host": "in-full.privateip.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VMESS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-            "type": "vmess",
-            "server": "172.99.190.109",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.99.190.109",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "172.99.190.109"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
