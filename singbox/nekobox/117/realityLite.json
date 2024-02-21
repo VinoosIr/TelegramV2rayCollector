@@ -105,7 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣"
             ]
         },
@@ -113,7 +113,7 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -121,12 +121,12 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "134.209.191.31",
-            "server_port": 10566,
-            "uuid": "bf1b8a34-578b-4a99-a60d-64babb7494a4",
-            "flow": "",
+            "server": "51.195.148.69",
+            "server_port": 6639,
+            "uuid": "02e490ca-6a99-4bf8-ba42-15cca3f20e6e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -135,7 +135,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gsmarena.com",
+                "server_name": "presshill.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -143,16 +143,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "djqJsVoP5zb-M0KMB6YdzxVjJeRqGRAn4SlXAg-Tu20",
-                    "short_id": "cfe90c3e"
+                    "public_key": "lA6wn3tUYgfJZkRzS29e1hJo38UXrL5ko6v6oQFIzB0",
+                    "short_id": "62f886757cb2e45e"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
