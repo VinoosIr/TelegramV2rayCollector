@@ -120,8 +120,8 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @ipV2Ray | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -132,7 +132,8 @@
             "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @ipV2Ray | NL🇳🇱 | 0️⃣1️⃣"
+                "رایگان | REALITY | @ipV2Ray | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -152,7 +153,6 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @freeconfigv2 | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -195,6 +195,41 @@
             }
         },
         {
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | NL🇳🇱 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "104.248.194.223",
+            "server_port": 443,
+            "uuid": "dc9433cf-5cf2-49de-8c9d-1b853b63c10e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.housepets.space",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
+                    "short_id": "189f1252"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "رایگان | REALITY | @azadi_az_inja_migzare | GB🇬🇧 | 0️⃣1️⃣",
             "type": "vless",
             "server": "51.195.148.69",
@@ -220,41 +255,6 @@
                     "public_key": "lA6wn3tUYgfJZkRzS29e1hJo38UXrL5ko6v6oQFIzB0",
                     "short_id": "62f886757cb2e45e"
                 }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "49.13.11.43",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xHComVbPv5hNGPcbXx8C_wQ6-zf3aML9MDbPuUs9C20",
-                    "short_id": "36dbdff8"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
