@@ -105,9 +105,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "DE🇩🇪",
                 "PL🇵🇱",
                 "US🇺🇸",
                 "AT🇦🇹",
+                "AZ🇦🇿",
+                "ES🇪🇸",
                 "GB🇬🇧",
                 "SE🇸🇪"
             ]
@@ -116,13 +119,24 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
+                "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | AZ🇦🇿 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | ES🇪🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | SE🇸🇪 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "DE🇩🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -159,11 +173,29 @@
             "tolerance": 50
         },
         {
+            "tag": "AZ🇦🇿",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @forwardv2ray | AZ🇦🇿 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "ES🇪🇸",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @forwardv2ray | ES🇪🇸 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -179,6 +211,16 @@
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
+        },
+        {
+            "tag": "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "18.196.158.36",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "A4Gx7lQcx9QZbXR2HlvaEz+momZTtempQnz10EoMpts=",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣1️⃣",
@@ -211,22 +253,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | AZ🇦🇿 | 0️⃣2️⃣",
             "type": "shadowsocks",
-            "server": "52.142.190.70",
-            "server_port": 13499,
-            "method": "chacha20-ietf-poly1305",
-            "password": "K227sUvoII4iLfJJ4U0LLO",
+            "server": "180.149.44.120",
+            "server_port": 989,
+            "method": "aes-256-gcm",
+            "password": "f8f7aCzcPKbsF8p3",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | ES🇪🇸 | 0️⃣3️⃣",
             "type": "shadowsocks",
-            "server": "51.142.173.34",
-            "server_port": 27842,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f57zVblTQs60egXUizaq4Y",
+            "server": "5.188.181.201",
+            "server_port": 9030,
+            "method": "aes-256-gcm",
+            "password": "GeregetR8cvQHzYr",
             "plugin": "",
             "plugin_opts": ""
         },
