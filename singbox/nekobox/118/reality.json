@@ -112,7 +112,6 @@
                 "URL-TEST | رایگان",
                 "DE🇩🇪",
                 "GB🇬🇧",
-                "ES🇪🇸",
                 "NL🇳🇱"
             ]
         },
@@ -124,7 +123,6 @@
                 "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @vless_vmess | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ConfigsHUB | ES🇪🇸 | 0️⃣3️⃣",
                 "رایگان | REALITY | @ROMAX_VPN | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -148,16 +146,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @vless_vmess | GB🇬🇧 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "ES🇪🇸",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @ConfigsHUB | ES🇪🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -296,41 +284,6 @@
                     "enabled": true,
                     "public_key": "w9tYPxes9YU2yvmYMgRYhSFQCWFoyQCz5b0odul1DQQ",
                     "short_id": "136ce8d8"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | ES🇪🇸 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "18.101.32.4",
-            "server_port": 443,
-            "uuid": "9153f552-1d51-441f-bdda-7203f2e2b2bb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0X6PMgVo1NfUSb8Kj64u6s7_uAHiFBtNtYUWAUA9WA4",
-                    "short_id": ""
                 }
             },
             "transport": {
