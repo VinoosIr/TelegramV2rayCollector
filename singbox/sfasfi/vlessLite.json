@@ -219,7 +219,8 @@
                 "رایگان | VLESS | @lrnbymaa | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ConfigsHUB | ES🇪🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣",
@@ -242,9 +243,8 @@
                 "رایگان | VLESS | @IRN_VPN | CR🇨🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | CR🇨🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | CA🇨🇦 | 0️⃣3️⃣",
-                "رایگان | VLESS | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @https_config_injector | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @https_config_injector | CA🇨🇦 | 0️⃣2️⃣",
@@ -383,7 +383,8 @@
                 "رایگان | VLESS | @lrnbymaa | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VLESS | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | REALITY | @ConfigsHUB | ES🇪🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | REALITY | @free1_vpn | DE🇩🇪 | 0️⃣3️⃣",
@@ -406,9 +407,8 @@
                 "رایگان | VLESS | @IRN_VPN | CR🇨🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | CR🇨🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | CA🇨🇦 | 0️⃣3️⃣",
-                "رایگان | VLESS | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @https_config_injector | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @https_config_injector | CA🇨🇦 | 0️⃣2️⃣",
@@ -3357,32 +3357,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 2082,
-            "uuid": "5fd30283-078d-4ee6-873b-4ecb8fec1958",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "none.error_none.error_10101010.iRAN-chEck-hOst-SERVER-sitesssssssssssssssssssssss--sssssssssss.com"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @ConfigsHUB | GB🇬🇧 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "18.169.1.40",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "80d48e49-f010-428e-f37d-8ee4b3c42148",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3392,7 +3369,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "opened-eligibility-relay-even.trycloudflare.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -3401,12 +3378,70 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
+                "path": "\/@daily_configs-@daily_configs-@daily_configs-@daily_configs-@daily_configs-",
                 "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                    "Host": "opened-eligibility-relay-even.trycloudflare.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "162.159.130.234",
+            "server_port": 2095,
+            "uuid": "13eefaf3-d838-4057-9ba0-5ca402f542fb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048",
+                "headers": {
+                    "Host": "bye-bro.xn--fhqaa952bababa.tech."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @ConfigsHUB | ES🇪🇸 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "18.101.32.4",
+            "server_port": 443,
+            "uuid": "9153f552-1d51-441f-bdda-7203f2e2b2bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0X6PMgVo1NfUSb8Kj64u6s7_uAHiFBtNtYUWAUA9WA4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -4060,11 +4095,11 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "154.197.75.80",
-            "server_port": 80,
-            "uuid": "f5463ccf-86f6-435c-890f-b2a5c55f73d1",
+            "server": "discord.gg",
+            "server_port": 2082,
+            "uuid": "5fd30283-078d-4ee6-873b-4ecb8fec1958",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -4074,9 +4109,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "path": "\/",
                 "headers": {
-                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co."
+                    "Host": "none.error_none.error_10101010.iRAN-chEck-hOst-SERVER-sitesssssssssssssssssssssss--sssssssssss.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -4085,62 +4120,23 @@
         {
             "tag": "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 2087,
-            "uuid": "1a57253c-9012-442d-b1e4-db4e2eb12a31",
+            "server": "104.18.202.232",
+            "server_port": 2052,
+            "uuid": "293d3a9b-4d5b-4d6d-a2ce-aca0791a080a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mehdi1.honarestan-hegmataneh.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "104.17.213.0",
-            "server_port": 8443,
-            "uuid": "5087baaa-72d8-4aa5-bbf8-c229ee6599e7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vmessorg.xn--54qv00ez5ar77g.co",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
+                "path": "\/",
                 "headers": {
-                    "Host": "vmessorg.xn--54qv00ez5ar77g.co."
+                    "Host": "FIRST-SITE-man---------ios.com-bmi.ir-irserver.ir-server.ace.ir.bmibank-melli-saderat-tejarat-meHr-sepAh-price-new-null-site-an.com"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
