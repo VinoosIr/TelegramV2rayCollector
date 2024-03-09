@@ -111,7 +111,6 @@
                 "FR🇫🇷",
                 "PL🇵🇱",
                 "NL🇳🇱",
-                "DE🇩🇪",
                 "KR🇰🇷"
             ]
         },
@@ -123,8 +122,6 @@
                 "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | PL🇵🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | SS | @ROMAX_VPN | KR🇰🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -157,17 +154,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @OutlineVpnOfficial | NL🇳🇱 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "DE🇩🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -220,26 +206,6 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "HnvnzFJ7m\/EI843LIprQ8bpsBhU0bi7Xk+xLxBICRX4=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "3.67.70.16",
-            "server_port": 23456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2ql6YkDqgDP8TCf2HFFMFT",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "jhgvhgvygvolykhvklhgvghvgvgkjhghgggjg.internetir.biz.tr",
-            "server_port": 23456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "WRkSVirXBmOws7saPpzfdu",
             "plugin": "",
             "plugin_opts": ""
         },
