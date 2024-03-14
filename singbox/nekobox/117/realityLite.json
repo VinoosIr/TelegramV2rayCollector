@@ -106,9 +106,10 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @NIM_VPN_ir | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @customv2ray | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | REALITY | @vless_vmess | TR🇹🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @DailyV2RY | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | REALITY | @DailyV2RY | TR🇹🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @kiava | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @OpenSSTPVpn | NL🇳🇱 | 0️⃣1️⃣"
             ]
@@ -118,9 +119,10 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @NIM_VPN_ir | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @customv2ray | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | REALITY | @vless_vmess | TR🇹🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @DailyV2RY | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | REALITY | @DailyV2RY | TR🇹🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @kiava | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @OpenSSTPVpn | NL🇳🇱 | 0️⃣1️⃣"
             ],
@@ -157,41 +159,6 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "91.107.186.175",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jsI4GV7A_BAjLydaw-XESSwCwCvE1ki7xIFWOZgwjSw",
-                    "short_id": "290c3561"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "رایگان | REALITY | @customv2ray | RU🇷🇺 | 0️⃣2️⃣",
             "type": "vless",
             "server": "saint-petersburg-03.ptu.ink",
@@ -225,6 +192,62 @@
             "server": "turkey-01.ptu.ink",
             "server_port": 443,
             "uuid": "8633c34c-573a-4e2c-b3bf-1b6ea42101f0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zGp41QGUA2TBVirEaFS34_n05w38JxQHKbqQxS-iHzM",
+                    "short_id": "cd2ccdd9761335d4"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @DailyV2RY | NL🇳🇱 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "netherlands-08.ptu.ink",
+            "server_port": 443,
+            "uuid": "88525cc4-5d68-410a-b122-104e3e6c0f0d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZFhyJmrGM4eO1ddeeKNM4XHofT3LPPw7AE-g8cFrim4",
+                    "short_id": "8a663230ca5a65ef"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @DailyV2RY | TR🇹🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "turkey-01.ptu.ink",
+            "server_port": 443,
+            "uuid": "637d3b63-758b-47cb-a5f6-f96fe6e4ab3b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
