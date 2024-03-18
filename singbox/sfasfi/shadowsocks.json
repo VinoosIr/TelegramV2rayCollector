@@ -110,7 +110,7 @@
                 "URL-TEST | رایگان",
                 "PL🇵🇱",
                 "FR🇫🇷",
-                "AT🇦🇹",
+                "BH🇧🇭",
                 "TR🇹🇷"
             ]
         },
@@ -120,7 +120,7 @@
             "outbounds": [
                 "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | AT🇦🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | BH🇧🇭 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣2️⃣"
             ],
@@ -149,10 +149,10 @@
             "tolerance": 50
         },
         {
-            "tag": "AT🇦🇹",
+            "tag": "BH🇧🇭",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @forwardv2ray | AT🇦🇹 | 0️⃣1️⃣"
+                "رایگان | SS | @forwardv2ray | BH🇧🇭 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -190,12 +190,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | AT🇦🇹 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | BH🇧🇭 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "vienna.telegavpn.com",
-            "server_port": 61992,
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "EFOi2VWUV6LN8iHJjzAqqq",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         },
