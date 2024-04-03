@@ -108,19 +108,29 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "IE🇮🇪",
                 "GB🇬🇧",
-                "FI🇫🇮",
-                "DE🇩🇪",
-                "IE🇮🇪"
+                "DE🇩🇪"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣9️⃣",
-                "رایگان | REALITY | @GozargahVPN | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @EliV2ray | IE🇮🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @TVCminer | IE🇮🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | REALITY | @GozargahVPN | DE🇩🇪 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "IE🇮🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @EliV2ray | IE🇮🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @TVCminer | IE🇮🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -131,17 +141,7 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "FI🇫🇮",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣9️⃣"
+                "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -158,21 +158,11 @@
             "tolerance": 50
         },
         {
-            "tag": "IE🇮🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @TVCminer | IE🇮🇪 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @EliV2ray | IE🇮🇪 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "165.22.120.153",
-            "server_port": 443,
-            "uuid": "fa2dedd2-9f9e-4905-bd00-555d0fa25702",
+            "server": "85.159.229.8",
+            "server_port": 2087,
+            "uuid": "e4527384-4f20-4378-95dc-403996f12588",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -182,77 +172,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.plutex.de",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Nln0pa_TGktLiJu3sKL-nxmGv-lZb1xGZ_Ig0wP_5R4",
-                    "short_id": "98ed59f5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "new.vipstore.cfd",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣9️⃣",
-            "type": "vless",
-            "server": "pub2.legendaryking.link",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fortune.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8UMZ6q74yjStq0Gad3QhEVYUZW3traIgWx9QWHpYLBI",
-                    "short_id": "e1ac93f1"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @GozargahVPN | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "45.32.157.52",
-            "server_port": 443,
-            "uuid": "GozargahVPN-GozargahVPN",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "dash.cloudflare.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -260,9 +180,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WU05h8s5l6VKCtawHNsNLrTLAU_lAznVudsiBKywQDM",
-                    "short_id": "ed"
+                    "public_key": "GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8",
+                    "short_id": "fc805835"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -298,6 +225,69 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "165.22.120.153",
+            "server_port": 443,
+            "uuid": "fa2dedd2-9f9e-4905-bd00-555d0fa25702",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.plutex.de",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Nln0pa_TGktLiJu3sKL-nxmGv-lZb1xGZ_Ig0wP_5R4",
+                    "short_id": "98ed59f5"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "new.vipstore.cfd",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @GozargahVPN | DE🇩🇪 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "45.32.157.52",
+            "server_port": 443,
+            "uuid": "GozargahVPN-GozargahVPN",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WU05h8s5l6VKCtawHNsNLrTLAU_lAznVudsiBKywQDM",
+                    "short_id": "ed"
+                }
             }
         },
         {
