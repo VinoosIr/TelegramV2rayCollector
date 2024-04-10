@@ -111,7 +111,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "GB🇬🇧",
-                "FR🇫🇷",
+                "CA🇨🇦",
                 "IR🇮🇷"
             ]
         },
@@ -120,9 +120,10 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -133,6 +134,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,10 +142,10 @@
             "tolerance": 50
         },
         {
-            "tag": "FR🇫🇷",
+            "tag": "CA🇨🇦",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -153,7 +155,7 @@
             "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -161,6 +163,27 @@
         },
         {
             "tag": "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "18.169.254.83",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "3.8.30.108",
             "server_port": 22222,
@@ -202,11 +225,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "51.44.27.23",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "server": "den.irgfw.fun",
+            "server_port": 2083,
+            "password": "3F98apiP9b",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -214,16 +237,23 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "heueuhe37u12jebe34b.irgfw.fun",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wss51632",
+                "headers": {
+                    "Host": "de.irgfw.fun"
+                }
             }
         },
         {
-            "tag": "رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "188.121.117.32",
             "server_port": 443,
