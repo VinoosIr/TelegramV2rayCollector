@@ -105,10 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣2️⃣"
             ]
         },
@@ -116,10 +116,10 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -127,9 +127,9 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "18.169.254.83",
+            "server": "54.246.46.216",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -148,9 +148,9 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "3.8.30.108",
+            "server": "63.32.131.226",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,7 +190,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "den.irgfw.fun",
             "server_port": 2083,
