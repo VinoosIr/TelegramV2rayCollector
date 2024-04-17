@@ -232,6 +232,7 @@
                 "رایگان | VLESS | @lrnbymaa | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | CA🇨🇦 | 0️⃣2️⃣",
@@ -263,7 +264,6 @@
                 "رایگان | VLESS | @kingofilter | CR🇨🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @GozargahVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @freeconfigv2 | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VLESS | @freeconfigv2 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @SvnTeam | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @SvnTeam | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @SvnTeam | CA🇨🇦 | 0️⃣3️⃣",
@@ -404,6 +404,7 @@
                 "رایگان | VLESS | @lrnbymaa | SE🇸🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxystore11 | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @proxystore11 | CA🇨🇦 | 0️⃣2️⃣",
@@ -435,7 +436,6 @@
                 "رایگان | VLESS | @kingofilter | CR🇨🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @GozargahVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @freeconfigv2 | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VLESS | @freeconfigv2 | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @SvnTeam | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @SvnTeam | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VLESS | @SvnTeam | CA🇨🇦 | 0️⃣3️⃣",
@@ -3769,9 +3769,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "104.21.192.45",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "162.159.136.234",
+            "server_port": 2053,
+            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3781,7 +3781,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test35.pages.dev",
+                "server_name": "guq22.OXnETwoRkS.LInk",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -3790,9 +3790,41 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless-ws\/@SINABIGO",
                 "headers": {
-                    "Host": "test35.pages.dev"
+                    "Host": "guq22.OXnETwoRkS.LInk"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "20------EVAY_VPN------",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pop.loveiran01.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
+                "headers": {
+                    "Host": "pop.loveiran01.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3801,9 +3833,9 @@
         {
             "tag": "رایگان | VLESS | @ConfigsHUB | CA🇨🇦 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "104.17.88.212",
-            "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "19------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3813,7 +3845,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bPb.rAdicaLIzatioN.IR",
+                "server_name": "pop.loveiran01.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -3822,11 +3854,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ZiRNBN8yXECvWrQT",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
                 "headers": {
-                    "Host": "BPb.RADIcaLiZAtion.iR"
+                    "Host": "pop.loveiran01.com"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -4593,39 +4625,7 @@
         {
             "tag": "رایگان | VLESS | @freeconfigv2 | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "172.67.139.111",
-            "server_port": 2083,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao1.curly-train.pages.dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "baipiao1.curly-train.pages.dev"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @freeconfigv2 | CA🇨🇦 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "104.25.255.254",
+            "server": "104.21.211.74",
             "server_port": 443,
             "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
             "flow": "xtls-rprx-vision",
