@@ -109,7 +109,8 @@
                 "رایگان | SS | @OutlineVpnOfficial | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣3️⃣",
                 "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣1️⃣",
-                "رایگان | SS | @ROMAX_VPN | LT🇱🇹 | 0️⃣1️⃣"
+                "رایگان | SS | @ROMAX_VPN | ES🇪🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @ROMAX_VPN | LT🇱🇹 | 0️⃣2️⃣"
             ]
         },
         {
@@ -120,7 +121,8 @@
                 "رایگان | SS | @OutlineVpnOfficial | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣3️⃣",
                 "رایگان | SS | @proxy_mtm | NL🇳🇱 | 0️⃣1️⃣",
-                "رایگان | SS | @ROMAX_VPN | LT🇱🇹 | 0️⃣1️⃣"
+                "رایگان | SS | @ROMAX_VPN | ES🇪🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @ROMAX_VPN | LT🇱🇹 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -167,7 +169,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @ROMAX_VPN | LT🇱🇹 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @ROMAX_VPN | ES🇪🇸 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "85.90.217.65",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @ROMAX_VPN | LT🇱🇹 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "195.238.126.84",
             "server_port": 9039,
