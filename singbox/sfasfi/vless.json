@@ -251,7 +251,6 @@
                 "رایگان | VLESS | @Qv2rayDONATED | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray1_ng | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayNGmat | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayNGmat | DE🇩🇪 | 0️⃣2️⃣",
@@ -261,6 +260,7 @@
                 "رایگان | VLESS | @v2logy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MTConfig | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MTConfig | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
@@ -466,8 +466,7 @@
                 "رایگان | VLESS | @ServerNett | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VLESS | @Qv2rayDONATED | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VLESS | @v2ray_swhil | CA🇨🇦 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2ray1_ng | CA🇨🇦 | 0️⃣1️⃣"
+                "رایگان | VLESS | @v2ray_swhil | CA🇨🇦 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -495,6 +494,7 @@
                 "رایگان | VLESS | @v2logy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MTConfig | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @MTConfig | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
@@ -3818,38 +3818,6 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @v2ray1_ng | CA🇨🇦 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "172.66.47.88",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/IkR3JyNSfjxxn5lZ?ed=2560",
-                "headers": {
-                    "Host": "12148dF7.miKApaGE.pagES.dEV"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @VlessConfig | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
             "server": "3.77.48.171",
@@ -4110,6 +4078,38 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vmessorg.xn--54qv00ez5ar77g.co"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "172.66.47.88",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/IkR3JyNSfjxxn5lZ?ed=2560",
+                "headers": {
+                    "Host": "12148dF7.miKApaGE.pagES.dEV"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
