@@ -116,8 +116,9 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @ROMAX_VPN | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | SS | @kingofilter | US🇺🇸 | 0️⃣1️⃣"
             ],
@@ -130,7 +131,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -140,7 +141,8 @@
             "tag": "CA🇨🇦",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣1️⃣"
+                "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @ROMAX_VPN | CA🇨🇦 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -177,7 +179,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
@@ -193,6 +195,16 @@
             "server_port": 8009,
             "method": "aes-256-gcm",
             "password": "XKFKl2rULjIp74",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @ROMAX_VPN | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "23.162.200.213",
+            "server_port": 2375,
+            "method": "aes-256-gcm",
+            "password": "faBAoD54k87UJG7",
             "plugin": "",
             "plugin_opts": ""
         },
