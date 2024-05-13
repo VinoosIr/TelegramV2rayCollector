@@ -109,7 +109,6 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "GB🇬🇧",
-                "FR🇫🇷",
                 "CA🇨🇦",
                 "US🇺🇸"
             ]
@@ -119,9 +118,9 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @v2ray_swhil | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣"
@@ -134,17 +133,8 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "FR🇫🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -154,7 +144,8 @@
             "tag": "CA🇨🇦",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -164,7 +155,6 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @v2ray_swhil | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣3️⃣"
@@ -176,7 +166,7 @@
         {
             "tag": "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "18.170.123.221",
+            "server": "13.42.180.188",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -195,9 +185,9 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "13.39.122.6",
+            "server": "18.170.123.221",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -244,7 +234,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @v2ray_swhil | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "198.41.220.10",
             "server_port": 443,
