@@ -109,8 +109,8 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "CA🇨🇦",
-                "BE🇧🇪",
                 "US🇺🇸",
+                "IR🇮🇷",
                 "DE🇩🇪"
             ]
         },
@@ -124,16 +124,18 @@
                 "رایگان | VMESS | @prrofile_purple | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | VMESS | @prrofile_purple | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | VMESS | @customv2ray | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VMESS | @oneclickvpnkeys | BE🇧🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @DailyV2RY | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VMESS | @kingofilter | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -156,28 +158,30 @@
             "tolerance": 50
         },
         {
-            "tag": "BE🇧🇪",
+            "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @oneclickvpnkeys | BE🇧🇪 | 0️⃣2️⃣"
+                "رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "US🇺🇸",
+            "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | VMESS | @DailyV2RY | IR🇮🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -370,11 +374,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @oneclickvpnkeys | BE🇧🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "112c8c34-d4d1-4c22-b512-26175f7f02dc",
+            "server": "de01.appleid.bf",
+            "server_port": 2086,
+            "uuid": "f27f9fa4-31c0-4fcc-9886-d73324e90e90",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -387,20 +391,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ed=2053",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "Be3.vmess.site."
+                    "Host": "de01.appleid.bf"
                 },
-                "max_early_data": 0,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "172.67.170.103",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "server": "jp01.appleid.bf",
+            "server_port": 2086,
+            "uuid": "f27f9fa4-31c0-4fcc-9886-d73324e90e90",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -411,23 +415,13 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "jp01.appleid.bf"
                 },
-                "max_early_data": 0,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -521,6 +515,32 @@
         },
         {
             "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "2.189.89.169",
+            "server_port": 8080,
+            "uuid": "703c72a7-9ee7-40b6-b134-9f8fa513fa8a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/CAT,Extrude-Aside-Aware,Reusable-Partner-Panther,Gear-Posture-Sprig,Outfit-Natural-Absolve,Unshipped-Twilight-Reselect,Profane-Fancy-Ship,Nineteen-Slicer-Hence,Could-Unwary-Manual,Ardently-Browse-Subscribe-Expire?ed=2056",
+                "headers": {
+                    "Host": "ExPlEtIvE-ImItAtE-TuBlEsS-RaMbLe-ElSeWhErE.0912.iR.cOM.My.OrG_-_-_-_-_-_.xn--Company.HaMiShElUxbEmoN.teCH."
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2082,
@@ -661,6 +681,23 @@
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @DailyV2RY | IR🇮🇷 | 0️⃣3️⃣",
+            "type": "vmess",
+            "server": "94.182.150.230",
+            "server_port": 80,
+            "uuid": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
+            "security": "auto",
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
