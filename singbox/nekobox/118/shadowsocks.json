@@ -114,9 +114,9 @@
                 "DE🇩🇪",
                 "CA🇨🇦",
                 "US🇺🇸",
+                "FR🇫🇷",
                 "KZ🇰🇿",
-                "NL🇳🇱",
-                "FR🇫🇷"
+                "NL🇳🇱"
             ]
         },
         {
@@ -127,9 +127,10 @@
                 "رایگان | SS | @OutlineVpnOfficial | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | CA🇨🇦 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @proxy_mtm | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | KZ🇰🇿 | 0️⃣1️⃣",
-                "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣"
+                "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -176,6 +177,17 @@
             "tolerance": 50
         },
         {
+            "tag": "FR🇫🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @proxy_mtm | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "KZ🇰🇿",
             "type": "urltest",
             "outbounds": [
@@ -190,16 +202,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "FR🇫🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -246,6 +248,26 @@
             "plugin_opts": ""
         },
         {
+            "tag": "رایگان | SS | @proxy_mtm | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "92.243.27.51",
+            "server_port": 9802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "j1WHr2u6a9mjnGnhV1mTCU",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "paris.telegavpn.com",
+            "server_port": 9802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "l3b7TrZ8NBm5EB4bFoo0ha",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "رایگان | SS | @kingofilter | KZ🇰🇿 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "188.94.155.82",
@@ -262,16 +284,6 @@
             "server_port": 18332,
             "method": "chacha20-ietf-poly1305",
             "password": "MyBoz22PePnYgEWNil1jWU",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "paris.telegavpn.com",
-            "server_port": 9802,
-            "method": "chacha20-ietf-poly1305",
-            "password": "l3b7TrZ8NBm5EB4bFoo0ha",
             "plugin": "",
             "plugin_opts": ""
         },
