@@ -111,7 +111,8 @@
                 "US🇺🇸",
                 "GB🇬🇧",
                 "NO🇳🇴",
-                "DE🇩🇪"
+                "DE🇩🇪",
+                "SG🇸🇬"
             ]
         },
         {
@@ -133,15 +134,17 @@
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @oneclickvpnkeys | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | VMESS | @FreakConfig | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | VMESS | @FreakConfig | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | VMESS | @vless_vmess | NO🇳🇴 | 0️⃣1️⃣",
-                "رایگان | VMESS | @FreakConfig | NO🇳🇴 | 0️⃣1️⃣",
+                "رایگان | VMESS | @FreakConfig | NO🇳🇴 | 0️⃣2️⃣",
                 "رایگان | VMESS | @vless_vmess | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | VMESS | @vmess_vless_v2rayng | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | VMESS | @vmess_vless_v2rayng | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VMESS | @Hope_Net | SG🇸🇬 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -166,6 +169,7 @@
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣3️⃣"
@@ -179,7 +183,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @oneclickvpnkeys | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | VMESS | @FreakConfig | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | VMESS | @FreakConfig | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -190,7 +194,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VMESS | @vless_vmess | NO🇳🇴 | 0️⃣1️⃣",
-                "رایگان | VMESS | @FreakConfig | NO🇳🇴 | 0️⃣1️⃣"
+                "رایگان | VMESS | @FreakConfig | NO🇳🇴 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -202,6 +206,16 @@
             "outbounds": [
                 "رایگان | VMESS | @vless_vmess | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VMESS | @vmess_vless_v2rayng | DE🇩🇪 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "SG🇸🇬",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | VMESS | @Hope_Net | SG🇸🇬 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -699,6 +713,23 @@
             }
         },
         {
+            "tag": "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "50.114.243.61",
+            "server_port": 43834,
+            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | VMESS | @ROMAX_VPN | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "104.21.4.6",
@@ -833,7 +864,7 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @FreakConfig | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @FreakConfig | GB🇬🇧 | 0️⃣3️⃣",
             "type": "vmess",
             "server": "190.93.247.155",
             "server_port": 80,
@@ -885,7 +916,7 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @FreakConfig | NO🇳🇴 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @FreakConfig | NO🇳🇴 | 0️⃣2️⃣",
             "type": "vmess",
             "server": "172.67.171.49",
             "server_port": 80,
@@ -960,6 +991,33 @@
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @Hope_Net | SG🇸🇬 | 0️⃣2️⃣",
+            "type": "vmess",
+            "server": "sg2-v2ray.ipracevpn.com",
+            "server_port": 2083,
+            "uuid": "610f3cbf-d441-46c2-9a84-572936fc1009",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sg2-v2ray.ipracevpn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
