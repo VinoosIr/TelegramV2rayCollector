@@ -125,7 +125,7 @@
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @v2Line | JP🇯🇵 | 0️⃣2️⃣",
+                "رایگان | VMESS | @nofiltering2 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @SINABIGO | US🇺🇸 | 0️⃣1️⃣",
@@ -153,7 +153,7 @@
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | VMESS | @v2Line | JP🇯🇵 | 0️⃣2️⃣",
+                "رایگان | VMESS | @nofiltering2 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @kingofilter | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @SINABIGO | US🇺🇸 | 0️⃣1️⃣",
@@ -662,11 +662,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @v2Line | JP🇯🇵 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @nofiltering2 | US🇺🇸 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "jp-full.privateip.net",
-            "server_port": 443,
-            "uuid": "124fe4ff-0ee4-4189-bd99-ed1a317b42dd",
+            "server": "[::ffff:3981:337d]",
+            "server_port": 19534,
+            "uuid": "9500739f-0299-47ec-9d3d-2cfec6d5cde1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -676,25 +676,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "jp-full.privateip.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
