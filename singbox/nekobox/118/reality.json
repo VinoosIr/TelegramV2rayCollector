@@ -122,8 +122,7 @@
                 "رایگان | REALITY | @Watashi_VPN | KR🇰🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | NO🇳🇴 | 0️⃣1️⃣",
                 "رایگان | REALITY | @VmessProtocol | NO🇳🇴 | 0️⃣3️⃣",
-                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -154,8 +153,7 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣"
+                "رایگان | REALITY | @VmessProtocol | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -277,34 +275,6 @@
                     "enabled": true,
                     "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
                     "short_id": "c741ad33"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "45.76.87.61",
-            "server_port": 443,
-            "uuid": "6eb31899-7e19-4da6-9b12-9e150a4e9086",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "doc.codiga.io",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nDbHLY0ceGUuLh50IdJkzxeMa8jPEgWi34lIe54eNzI",
-                    "short_id": "7d4f5b4d"
                 }
             }
         },
