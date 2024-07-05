@@ -110,9 +110,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @OutlineVpnOfficial | IT🇮🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @OutlineVpnOfficial | HU🇭🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣",
@@ -125,9 +125,9 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @OutlineVpnOfficial | IT🇮🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @OutlineVpnOfficial | HU🇭🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣",
@@ -140,7 +140,7 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "beedoost.org",
             "server_port": 8080,
@@ -160,9 +160,9 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @OutlineVpnOfficial | IT🇮🇹 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @OutlineVpnOfficial | HU🇭🇺 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "147.45.51.15",
+            "server": "38.180.19.118",
             "server_port": 1080,
             "method": "chacha20-ietf-poly1305",
             "password": "3pURuTUf-lFgg5qWg8euFA",

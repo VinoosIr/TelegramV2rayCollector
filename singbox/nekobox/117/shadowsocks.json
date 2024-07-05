@@ -105,9 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "US🇺🇸",
+                "NL🇳🇱",
                 "GB🇬🇧",
-                "IT🇮🇹",
+                "HU🇭🇺",
+                "US🇺🇸",
                 "FR🇫🇷",
                 "AT🇦🇹"
             ]
@@ -116,13 +117,13 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @OutlineVpnOfficial | IT🇮🇹 | 0️⃣1️⃣",
+                "رایگان | SS | @OutlineVpnOfficial | HU🇭🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @kingofilter | AT🇦🇹 | 0️⃣2️⃣"
             ],
@@ -131,11 +132,10 @@
             "tolerance": 50
         },
         {
-            "tag": "US🇺🇸",
+            "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣"
+                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -155,10 +155,20 @@
             "tolerance": 50
         },
         {
-            "tag": "IT🇮🇹",
+            "tag": "HU🇭🇺",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @OutlineVpnOfficial | IT🇮🇹 | 0️⃣1️⃣"
+                "رایگان | SS | @OutlineVpnOfficial | HU🇭🇺 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "US🇺🇸",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -185,22 +195,12 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "beedoost.org",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "205.134.180.139",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "lWaGPVFjmnag",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -245,12 +245,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @OutlineVpnOfficial | IT🇮🇹 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @OutlineVpnOfficial | HU🇭🇺 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "147.45.51.15",
+            "server": "38.180.19.118",
             "server_port": 1080,
             "method": "chacha20-ietf-poly1305",
             "password": "3pURuTUf-lFgg5qWg8euFA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "205.134.180.139",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lWaGPVFjmnag",
             "plugin": "",
             "plugin_opts": ""
         },
