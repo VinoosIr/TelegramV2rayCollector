@@ -108,9 +108,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
@@ -122,9 +122,9 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣",
@@ -136,7 +136,7 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -164,7 +164,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "www.visa.com.sg",
             "server_port": 2053,
@@ -192,7 +192,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @Watashi_VPN | US🇺🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @Watashi_VPN | CA🇨🇦 | 0️⃣3️⃣",
             "type": "trojan",
             "server": "www.visa.com.sg",
             "server_port": 8443,
